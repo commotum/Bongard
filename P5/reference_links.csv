@@ -1,0 +1,628 @@
+H2,H3,Title,Description,Link
+Shape,2D Primitives,arc(),Draws an arc.,https://p5js.org/reference/p5/arc/
+Shape,2D Primitives,circle(),Draws a circle.,https://p5js.org/reference/p5/circle/
+Shape,2D Primitives,ellipse(),Draws an ellipse (oval).,https://p5js.org/reference/p5/ellipse/
+Shape,2D Primitives,line(),Draws a straight line between two points.,https://p5js.org/reference/p5/line/
+Shape,2D Primitives,point(),Draws a single point in space.,https://p5js.org/reference/p5/point/
+Shape,2D Primitives,quad(),Draws a quadrilateral (four-sided shape).,https://p5js.org/reference/p5/quad/
+Shape,2D Primitives,rect(),Draws a rectangle.,https://p5js.org/reference/p5/rect/
+Shape,2D Primitives,square(),Draws a square.,https://p5js.org/reference/p5/square/
+Shape,2D Primitives,triangle(),Draws a triangle.,https://p5js.org/reference/p5/triangle/
+Shape,3D Models,createModel(),Load a 3d model from an OBJ or STL string.,https://p5js.org/reference/p5/createModel/
+Shape,3D Models,loadModel(),Loads a 3D model to create a p5.Geometry object.,https://p5js.org/reference/p5/loadModel/
+Shape,3D Models,model(),Draws a p5.Geometry object to the canvas.,https://p5js.org/reference/p5/model/
+Shape,3D Primitives,beginGeometry(),Begins adding shapes to a new p5.Geometry object.,https://p5js.org/reference/p5/beginGeometry/
+Shape,3D Primitives,box(),Draws a box (rectangular prism).,https://p5js.org/reference/p5/box/
+Shape,3D Primitives,buildGeometry(),Creates a custom p5.Geometry object from simpler 3D shapes.,https://p5js.org/reference/p5/buildGeometry/
+Shape,3D Primitives,cone(),Draws a cone.,https://p5js.org/reference/p5/cone/
+Shape,3D Primitives,cylinder(),Draws a cylinder.,https://p5js.org/reference/p5/cylinder/
+Shape,3D Primitives,ellipsoid(),Draws an ellipsoid.,https://p5js.org/reference/p5/ellipsoid/
+Shape,3D Primitives,endGeometry(),Stops adding shapes to a new p5.Geometry object and returns the object.,https://p5js.org/reference/p5/endGeometry/
+Shape,3D Primitives,freeGeometry(),Clears a p5.Geometry object from the graphics processing unit (GPU) memory.,https://p5js.org/reference/p5/freeGeometry/
+Shape,3D Primitives,plane(),Draws a plane.,https://p5js.org/reference/p5/plane/
+Shape,3D Primitives,sphere(),Draws a sphere.,https://p5js.org/reference/p5/sphere/
+Shape,3D Primitives,torus(),Draws a torus.,https://p5js.org/reference/p5/torus/
+Shape,Attributes,ellipseMode(),"Changes where ellipses, circles, and arcs are drawn.",https://p5js.org/reference/p5/ellipseMode/
+Shape,Attributes,noSmooth(),Draws certain features with jagged (aliased) edges.,https://p5js.org/reference/p5/noSmooth/
+Shape,Attributes,rectMode(),Changes where rectangles and squares are drawn.,https://p5js.org/reference/p5/rectMode/
+Shape,Attributes,smooth(),Draws certain features with smooth (antialiased) edges.,https://p5js.org/reference/p5/smooth/
+Shape,Attributes,strokeCap(),Sets the style for rendering the ends of lines.,https://p5js.org/reference/p5/strokeCap/
+Shape,Attributes,strokeJoin(),Sets the style of the joints that connect line segments.,https://p5js.org/reference/p5/strokeJoin/
+Shape,Attributes,strokeWeight(),"Sets the width of the stroke used for points, lines, and the outlines of shapes.",https://p5js.org/reference/p5/strokeWeight/
+Shape,Curves,bezier(),Draws a Bézier curve.,https://p5js.org/reference/p5/bezier/
+Shape,Curves,bezierDetail(),Sets the number of segments used to draw Bézier curves in WebGL mode.,https://p5js.org/reference/p5/bezierDetail/
+Shape,Curves,bezierPoint(),Calculates coordinates along a Bézier curve using interpolation.,https://p5js.org/reference/p5/bezierPoint/
+Shape,Curves,bezierTangent(),Calculates coordinates along a line that's tangent to a Bézier curve.,https://p5js.org/reference/p5/bezierTangent/
+Shape,Curves,curve(),Draws a curve using a Catmull-Rom spline.,https://p5js.org/reference/p5/curve/
+Shape,Curves,curveDetail(),Sets the number of segments used to draw spline curves in WebGL mode.,https://p5js.org/reference/p5/curveDetail/
+Shape,Curves,curvePoint(),Calculates coordinates along a spline curve using interpolation.,https://p5js.org/reference/p5/curvePoint/
+Shape,Curves,curveTangent(),Calculates coordinates along a line that's tangent to a spline curve.,https://p5js.org/reference/p5/curveTangent/
+Shape,Curves,curveTightness(),Adjusts the way curve() and curveVertex() draw.,https://p5js.org/reference/p5/curveTightness/
+Shape,Vertex,beginContour(),Begins creating a hole within a flat shape.,https://p5js.org/reference/p5/beginContour/
+Shape,Vertex,beginShape(),Begins adding vertices to a custom shape.,https://p5js.org/reference/p5/beginShape/
+Shape,Vertex,bezierVertex(),Adds a Bézier curve segment to a custom shape.,https://p5js.org/reference/p5/bezierVertex/
+Shape,Vertex,curveVertex(),Adds a spline curve segment to a custom shape.,https://p5js.org/reference/p5/curveVertex/
+Shape,Vertex,endContour(),Stops creating a hole within a flat shape.,https://p5js.org/reference/p5/endContour/
+Shape,Vertex,endShape(),Stops adding vertices to a custom shape.,https://p5js.org/reference/p5/endShape/
+Shape,Vertex,normal(),Sets the normal vector for vertices in a custom 3D shape.,https://p5js.org/reference/p5/normal/
+Shape,Vertex,quadraticVertex(),Adds a quadratic Bézier curve segment to a custom shape.,https://p5js.org/reference/p5/quadraticVertex/
+Shape,Vertex,vertex(),Adds a vertex to a custom shape.,https://p5js.org/reference/p5/vertex/
+Shape,p5.Geometry,calculateBoundingBox(),Calculates the position and size of the smallest box that contains the geometry.,https://p5js.org/reference/p5.Geometry/calculateBoundingBox/
+Shape,p5.Geometry,clearColors(),Removes the geometry’s internal colors.,https://p5js.org/reference/p5.Geometry/clearColors/
+Shape,p5.Geometry,computeFaces(),Computes the geometry's faces using its vertices.,https://p5js.org/reference/p5.Geometry/computeFaces/
+Shape,p5.Geometry,computeNormals(),Calculates the normal vector for each vertex on the geometry.,https://p5js.org/reference/p5.Geometry/computeNormals/
+Shape,p5.Geometry,faces,An array that lists which of the geometry's vertices form each of its faces.,https://p5js.org/reference/p5.Geometry/faces/
+Shape,p5.Geometry,flipU(),Flips the geometry’s texture u-coordinates.,https://p5js.org/reference/p5.Geometry/flipU/
+Shape,p5.Geometry,flipV(),Flips the geometry’s texture v-coordinates.,https://p5js.org/reference/p5.Geometry/flipV/
+Shape,p5.Geometry,normalize(),Transforms the geometry's vertices to fit snugly within a 100×100×100 box centered at the origin.,https://p5js.org/reference/p5.Geometry/normalize/
+Shape,p5.Geometry,saveObj(),The saveObj() function exports p5.Geometry objects as 3D models in the Wavefront.obj file format,https://p5js.org/reference/p5.Geometry/saveObj/
+Shape,p5.Geometry,saveStl(),The saveStl() function exports p5.Geometry objects as 3D models in the STL stereolithography file format,https://p5js.org/reference/p5.Geometry/saveStl/
+Shape,p5.Geometry,uvs,An array that lists the texture coordinates for each of the geometry's vertices.,https://p5js.org/reference/p5.Geometry/uvs/
+Shape,p5.Geometry,vertexNormals,An array with the vectors that are normal to the geometry's vertices.,https://p5js.org/reference/p5.Geometry/vertexNormals/
+Shape,p5.Geometry,vertices,An array with the geometry's vertices.,https://p5js.org/reference/p5.Geometry/vertices/
+Color,Creating & Reading,alpha(),Gets the alpha (transparency) value of a color.,https://p5js.org/reference/p5/alpha/
+Color,Creating & Reading,blue(),Gets the blue value of a color.,https://p5js.org/reference/p5/blue/
+Color,Creating & Reading,brightness(),Gets the brightness value of a color.,https://p5js.org/reference/p5/brightness/
+Color,Creating & Reading,color(),Creates a p5.Color object.,https://p5js.org/reference/p5/color/
+Color,Creating & Reading,green(),Gets the green value of a color.,https://p5js.org/reference/p5/green/
+Color,Creating & Reading,hue(),Gets the hue value of a color.,https://p5js.org/reference/p5/hue/
+Color,Creating & Reading,lerpColor(),Blends two colors to find a third color between them.,https://p5js.org/reference/p5/lerpColor/
+Color,Creating & Reading,lightness(),Gets the lightness value of a color.,https://p5js.org/reference/p5/lightness/
+Color,Creating & Reading,paletteLerp(),Blends multiple colors to find a color between them.,https://p5js.org/reference/p5/paletteLerp/
+Color,Creating & Reading,red(),Gets the red value of a color.,https://p5js.org/reference/p5/red/
+Color,Creating & Reading,saturation(),Gets the saturation value of a color.,https://p5js.org/reference/p5/saturation/
+Color,Setting,background(),Sets the color used for the background of the canvas.,https://p5js.org/reference/p5/background/
+Color,Setting,beginClip(),Starts defining a shape that will mask any shapes drawn afterward.,https://p5js.org/reference/p5/beginClip/
+Color,Setting,clear(),Clears the pixels on the canvas.,https://p5js.org/reference/p5/clear/
+Color,Setting,clip(),Defines a shape that will mask any shapes drawn afterward.,https://p5js.org/reference/p5/clip/
+Color,Setting,colorMode(),Changes the way color values are interpreted.,https://p5js.org/reference/p5/colorMode/
+Color,Setting,endClip(),Ends defining a mask that was started with beginClip().,https://p5js.org/reference/p5/endClip/
+Color,Setting,erase(),Starts using shapes to erase parts of the canvas.,https://p5js.org/reference/p5/erase/
+Color,Setting,fill(),Sets the color used to fill shapes.,https://p5js.org/reference/p5/fill/
+Color,Setting,noErase(),Ends erasing that was started with erase().,https://p5js.org/reference/p5/noErase/
+Color,Setting,noFill(),Disables setting the fill color for shapes.,https://p5js.org/reference/p5/noFill/
+Color,Setting,noStroke(),"Disables drawing points, lines, and the outlines of shapes.",https://p5js.org/reference/p5/noStroke/
+Color,Setting,stroke(),"Sets the color used to draw points, lines, and the outlines of shapes.",https://p5js.org/reference/p5/stroke/
+Color,p5.Color,setAlpha(),Sets the alpha (transparency) value of a color.,https://p5js.org/reference/p5.Color/setAlpha/
+Color,p5.Color,setBlue(),Sets the blue component of a color.,https://p5js.org/reference/p5.Color/setBlue/
+Color,p5.Color,setGreen(),Sets the green component of a color.,https://p5js.org/reference/p5.Color/setGreen/
+Color,p5.Color,setRed(),Sets the red component of a color.,https://p5js.org/reference/p5.Color/setRed/
+Color,p5.Color,toString(),Returns the color formatted as a String.,https://p5js.org/reference/p5.Color/toString/
+Typography,Attributes,textAlign(),Sets the way text is aligned when text() is called.,https://p5js.org/reference/p5/textAlign/
+Typography,Attributes,textAscent(),Calculates the ascent of the current font at its current size.,https://p5js.org/reference/p5/textAscent/
+Typography,Attributes,textDescent(),Calculates the descent of the current font at its current size.,https://p5js.org/reference/p5/textDescent/
+Typography,Attributes,textLeading(),Sets the spacing between lines of text when text() is called.,https://p5js.org/reference/p5/textLeading/
+Typography,Attributes,textSize(),Sets the font size when text() is called.,https://p5js.org/reference/p5/textSize/
+Typography,Attributes,textStyle(),Sets the style for system fonts when text() is called.,https://p5js.org/reference/p5/textStyle/
+Typography,Attributes,textWidth(),Calculates the maximum width of a string of text drawn when text() is called.,https://p5js.org/reference/p5/textWidth/
+Typography,Attributes,textWrap(),Sets the style for wrapping text when text() is called.,https://p5js.org/reference/p5/textWrap/
+Typography,Attributes,loadFont(),Loads a font and creates a p5.Font object,https://p5js.org/reference/p5/loadFont/
+Typography,Attributes,text(),Draws text to the canvas.,https://p5js.org/reference/p5/text/
+Typography,Attributes,textFont(),Sets the font used by the text() function.,https://p5js.org/reference/p5/textFont/
+Typography,p5.Font,font,The font's underlying opentype.js font object.,https://p5js.org/reference/p5.Font/font/
+Typography,p5.Font,textBounds(),Returns the bounding box for a string of text written using the font.,https://p5js.org/reference/p5.Font/textBounds/
+Typography,p5.Font,textToPoints(),Returns an array of points outlining a string of text written using the font.,https://p5js.org/reference/p5.Font/textToPoints/
+Image,,createImage(),Creates a new p5.Image object.,https://p5js.org/reference/p5/createImage/
+Image,,saveCanvas(),Saves the current canvas as an image.,https://p5js.org/reference/p5/saveCanvas/
+Image,,saveFrames(),Captures a sequence of frames from the canvas that can be saved as images.,https://p5js.org/reference/p5/saveFrames/
+Image,,image(),Draws an image to the canvas.,https://p5js.org/reference/p5/image/
+Image,,imageMode(),Changes the location from which images are drawn when image() is called.,https://p5js.org/reference/p5/imageMode/
+Image,,loadImage(),Loads an image to create a p5.Image object.,https://p5js.org/reference/p5/loadImage/
+Image,,noTint(),Removes the current tint set by tint().,https://p5js.org/reference/p5/noTint/
+Image,,saveGif(),Generates a gif from a sketch and saves it to a file.,https://p5js.org/reference/p5/saveGif/
+Image,,tint(),Tints images using a color.,https://p5js.org/reference/p5/tint/
+Image,Pixels,blend(),Copies a region of pixels from one image to another.,https://p5js.org/reference/p5/blend/
+Image,Pixels,copy(),Copies pixels from a source image to a region of the canvas.,https://p5js.org/reference/p5/copy/
+Image,Pixels,filter(),Applies an image filter to the canvas.,https://p5js.org/reference/p5/filter/
+Image,Pixels,get(),Gets a pixel or a region of pixels from the canvas.,https://p5js.org/reference/p5/get/
+Image,Pixels,loadPixels(),Loads the current value of each pixel on the canvas into the pixels array.,https://p5js.org/reference/p5/loadPixels/
+Image,Pixels,pixels,An array containing the color of each pixel on the canvas.,https://p5js.org/reference/p5/pixels/
+Image,Pixels,set(),Sets the color of a pixel or draws an image to the canvas.,https://p5js.org/reference/p5/set/
+Image,Pixels,updatePixels(),Updates the canvas with the RGBA values in the pixels array.,https://p5js.org/reference/p5/updatePixels/
+Image,p5.Image,blend(),Copies a region of pixels from another image into this one.,https://p5js.org/reference/p5.Image/blend/
+Image,p5.Image,copy(),Copies pixels from a source image to this image.,https://p5js.org/reference/p5.Image/copy/
+Image,p5.Image,delay(),Changes the delay between frames in an animated GIF.,https://p5js.org/reference/p5.Image/delay/
+Image,p5.Image,filter(),Applies an image filter to the image.,https://p5js.org/reference/p5.Image/filter/
+Image,p5.Image,get(),Gets a pixel or a region of pixels from the image.,https://p5js.org/reference/p5.Image/get/
+Image,p5.Image,getCurrentFrame(),Gets the index of the current frame in an animated GIF.,https://p5js.org/reference/p5.Image/getCurrentFrame/
+Image,p5.Image,height,The image's height in pixels.,https://p5js.org/reference/p5.Image/height/
+Image,p5.Image,loadPixels(),Loads the current value of each pixel in the image into the img.pixels array.,https://p5js.org/reference/p5.Image/loadPixels/
+Image,p5.Image,mask(),Masks part of the image with another.,https://p5js.org/reference/p5.Image/mask/
+Image,p5.Image,numFrames(),Returns the number of frames in an animated GIF.,https://p5js.org/reference/p5.Image/numFrames/
+Image,p5.Image,pause(),Pauses an animated GIF.,https://p5js.org/reference/p5.Image/pause/
+Image,p5.Image,pixelDensity(),Gets or sets the pixel density for high pixel density displays.,https://p5js.org/reference/p5.Image/pixelDensity/
+Image,p5.Image,pixels,An array containing the color of each pixel in the image.,https://p5js.org/reference/p5.Image/pixels/
+Image,p5.Image,play(),Plays an animated GIF that was paused with img.pause().,https://p5js.org/reference/p5.Image/play/
+Image,p5.Image,reset(),Restarts an animated GIF at its first frame.,https://p5js.org/reference/p5.Image/reset/
+Image,p5.Image,resize(),Resizes the image to a given width and height.,https://p5js.org/reference/p5.Image/resize/
+Image,p5.Image,save(),Saves the image to a file.,https://p5js.org/reference/p5.Image/save/
+Image,p5.Image,set(),Sets the color of one or more pixels within an image.,https://p5js.org/reference/p5.Image/set/
+Image,p5.Image,setFrame(),Sets the current frame in an animated GIF.,https://p5js.org/reference/p5.Image/setFrame/
+Image,p5.Image,updatePixels(),Updates the canvas with the RGBA values in the img.pixels array.,https://p5js.org/reference/p5.Image/updatePixels/
+Image,p5.Image,width,The image's width in pixels.,https://p5js.org/reference/p5.Image/width/
+Transform,,applyMatrix(),Applies a transformation matrix to the coordinate system.,https://p5js.org/reference/p5/applyMatrix/
+Transform,,resetMatrix(),Clears all transformations applied to the coordinate system.,https://p5js.org/reference/p5/resetMatrix/
+Transform,,rotate(),Rotates the coordinate system.,https://p5js.org/reference/p5/rotate/
+Transform,,rotateX(),Rotates the coordinate system about the x-axis in WebGL mode.,https://p5js.org/reference/p5/rotateX/
+Transform,,rotateY(),Rotates the coordinate system about the y-axis in WebGL mode.,https://p5js.org/reference/p5/rotateY/
+Transform,,rotateZ(),Rotates the coordinate system about the z-axis in WebGL mode.,https://p5js.org/reference/p5/rotateZ/
+Transform,,scale(),Scales the coordinate system.,https://p5js.org/reference/p5/scale/
+Transform,,shearX(),Shears the x-axis so that shapes appear skewed.,https://p5js.org/reference/p5/shearX/
+Transform,,shearY(),Shears the y-axis so that shapes appear skewed.,https://p5js.org/reference/p5/shearY/
+Transform,,translate(),Translates the coordinate system.,https://p5js.org/reference/p5/translate/
+Environment,,cursor(),Changes the cursor's appearance.,https://p5js.org/reference/p5/cursor/
+Environment,,deltaTime,A Number variable that tracks the number of milliseconds it took to draw the last frame.,https://p5js.org/reference/p5/deltaTime/
+Environment,,describe(),Creates a screen reader-accessible description of the canvas.,https://p5js.org/reference/p5/describe/
+Environment,,describeElement(),Creates a screen reader-accessible description of elements in the canvas.,https://p5js.org/reference/p5/describeElement/
+Environment,,displayDensity(),Returns the display's current pixel density.,https://p5js.org/reference/p5/displayDensity/
+Environment,,displayHeight,A Number variable that stores the height of the screen display.,https://p5js.org/reference/p5/displayHeight/
+Environment,,displayWidth,A Number variable that stores the width of the screen display.,https://p5js.org/reference/p5/displayWidth/
+Environment,,focused,A Boolean variable that's true if the browser is focused and false if not.,https://p5js.org/reference/p5/focused/
+Environment,,frameCount,A Number variable that tracks the number of frames drawn since the sketch started.,https://p5js.org/reference/p5/frameCount/
+Environment,,frameRate(),Sets the number of frames to draw per second.,https://p5js.org/reference/p5/frameRate/
+Environment,,fullscreen(),Toggles full-screen mode or returns the current mode.,https://p5js.org/reference/p5/fullscreen/
+Environment,,getTargetFrameRate(),Returns the target frame rate.,https://p5js.org/reference/p5/getTargetFrameRate/
+Environment,,getURL(),Returns the sketch's current URL as a String.,https://p5js.org/reference/p5/getURL/
+Environment,,getURLParams(),Returns the current URL parameters in an Object.,https://p5js.org/reference/p5/getURLParams/
+Environment,,getURLPath(),Returns the current URL path as an Array of Strings.,https://p5js.org/reference/p5/getURLPath/
+Environment,,gridOutput(),Creates a screen reader-accessible description of shapes on the canvas.,https://p5js.org/reference/p5/gridOutput/
+Environment,,height,A Number variable that stores the height of the canvas in pixels.,https://p5js.org/reference/p5/height/
+Environment,,noCursor(),Hides the cursor from view.,https://p5js.org/reference/p5/noCursor/
+Environment,,pixelDensity(),Sets the pixel density or returns the current density.,https://p5js.org/reference/p5/pixelDensity/
+Environment,,print(),Displays text in the web browser's console.,https://p5js.org/reference/p5/print/
+Environment,,textOutput(),Creates a screen reader-accessible description of shapes on the canvas.,https://p5js.org/reference/p5/textOutput/
+Environment,,webglVersion,A String variable with the WebGL version in use.,https://p5js.org/reference/p5/webglVersion/
+Environment,,width,A Number variable that stores the width of the canvas in pixels.,https://p5js.org/reference/p5/width/
+Environment,,windowHeight,A Number variable that stores the height of the browser's viewport.,https://p5js.org/reference/p5/windowHeight/
+Environment,,windowResized(),A function that's called when the browser window is resized.,https://p5js.org/reference/p5/windowResized/
+Environment,,windowWidth,A Number variable that stores the width of the browser's viewport.,https://p5js.org/reference/p5/windowWidth/
+3D,Camera,camera(),Sets the position and orientation of the current camera in a 3D sketch.,https://p5js.org/reference/p5/camera/
+3D,Camera,createCamera(),Creates a new p5.Camera object and sets it as the current (active) camera.,https://p5js.org/reference/p5/createCamera/
+3D,Camera,frustum(),Sets the frustum of the current camera in a 3D sketch.,https://p5js.org/reference/p5/frustum/
+3D,Camera,linePerspective(),Enables or disables perspective for lines in 3D sketches.,https://p5js.org/reference/p5/linePerspective/
+3D,Camera,ortho(),Sets an orthographic projection for the current camera in a 3D sketch.,https://p5js.org/reference/p5/ortho/
+3D,Camera,perspective(),Sets a perspective projection for the current camera in a 3D sketch.,https://p5js.org/reference/p5/perspective/
+3D,Camera,setCamera(),Sets the current (active) camera of a 3D sketch.,https://p5js.org/reference/p5/setCamera/
+3D,Camera,debugMode(),Adds a grid and an axes icon to clarify orientation in 3D sketches.,https://p5js.org/reference/p5/debugMode/
+3D,Camera,noDebugMode(),Turns off debugMode() in a 3D sketch.,https://p5js.org/reference/p5/noDebugMode/
+3D,Camera,orbitControl(),"Allows the user to orbit around a 3D sketch using a mouse, trackpad, or touchscreen.",https://p5js.org/reference/p5/orbitControl/
+3D,Lights,ambientLight(),Creates a light that shines from all directions.,https://p5js.org/reference/p5/ambientLight/
+3D,Lights,directionalLight(),Creates a light that shines in one direction.,https://p5js.org/reference/p5/directionalLight/
+3D,Lights,imageLight(),Creates an ambient light from an image.,https://p5js.org/reference/p5/imageLight/
+3D,Lights,lightFalloff(),Sets the falloff rate for pointLight() and spotLight().,https://p5js.org/reference/p5/lightFalloff/
+3D,Lights,lights(),Places an ambient and directional light in the scene,https://p5js.org/reference/p5/lights/
+3D,Lights,noLights(),Removes all lights from the sketch.,https://p5js.org/reference/p5/noLights/
+3D,Lights,panorama(),Creates an immersive 3D background.,https://p5js.org/reference/p5/panorama/
+3D,Lights,pointLight(),Creates a light that shines from a point in all directions.,https://p5js.org/reference/p5/pointLight/
+3D,Lights,specularColor(),Sets the specular color for lights.,https://p5js.org/reference/p5/specularColor/
+3D,Lights,spotLight(),Creates a light that shines from a point in one direction.,https://p5js.org/reference/p5/spotLight/
+3D,Material,ambientMaterial(),Sets the ambient color of shapes’ surface material.,https://p5js.org/reference/p5/ambientMaterial/
+3D,Material,baseColorShader(),Get the shader used when no lights or materials are applied.,https://p5js.org/reference/p5/baseColorShader/
+3D,Material,baseMaterialShader(),"Get the default shader used with lights, materials, and textures.",https://p5js.org/reference/p5/baseMaterialShader/
+3D,Material,baseNormalShader(),Get the shader used by normalMaterial().,https://p5js.org/reference/p5/baseNormalShader/
+3D,Material,baseStrokeShader(),Get the shader used when drawing the strokes of shapes.,https://p5js.org/reference/p5/baseStrokeShader/
+3D,Material,createFilterShader(),Creates a p5.Shader object to be used with the filter() function.,https://p5js.org/reference/p5/createFilterShader/
+3D,Material,createShader(),Creates a new p5.Shader object.,https://p5js.org/reference/p5/createShader/
+3D,Material,emissiveMaterial(),Sets the emissive color of shapes’ surface material.,https://p5js.org/reference/p5/emissiveMaterial/
+3D,Material,loadShader(),Loads vertex and fragment shaders to create a p5.Shader object.,https://p5js.org/reference/p5/loadShader/
+3D,Material,metalness(),"Sets the amount of ""metalness"" of a specularMaterial().",https://p5js.org/reference/p5/metalness/
+3D,Material,normalMaterial(),Sets the current material as a normal material.,https://p5js.org/reference/p5/normalMaterial/
+3D,Material,resetShader(),Restores the default shaders.,https://p5js.org/reference/p5/resetShader/
+3D,Material,shader(),Sets the p5.Shader object to apply while drawing.,https://p5js.org/reference/p5/shader/
+3D,Material,shininess(),"Sets the amount of gloss (""shininess"") of a specularMaterial().",https://p5js.org/reference/p5/shininess/
+3D,Material,specularMaterial(),Sets the specular color of shapes’ surface material.,https://p5js.org/reference/p5/specularMaterial/
+3D,Material,texture(),Sets the texture that will be used on shapes.,https://p5js.org/reference/p5/texture/
+3D,Material,textureMode(),Changes the coordinate system used for textures when they’re applied to custom shapes.,https://p5js.org/reference/p5/textureMode/
+3D,Material,textureWrap(),Changes the way textures behave when a shape’s uv coordinates go beyond the texture.,https://p5js.org/reference/p5/textureWrap/
+3D,p5.Camera,camera(),Sets the position and orientation of the camera.,https://p5js.org/reference/p5.Camera/camera/
+3D,p5.Camera,centerX,The x-coordinate of the place where the camera looks.,https://p5js.org/reference/p5.Camera/centerX/
+3D,p5.Camera,centerY,The y-coordinate of the place where the camera looks.,https://p5js.org/reference/p5.Camera/centerY/
+3D,p5.Camera,centerZ,The y-coordinate of the place where the camera looks.,https://p5js.org/reference/p5.Camera/centerZ/
+3D,p5.Camera,eyeX,The camera’s x-coordinate.,https://p5js.org/reference/p5.Camera/eyeX/
+3D,p5.Camera,eyeY,The camera’s y-coordinate.,https://p5js.org/reference/p5.Camera/eyeY/
+3D,p5.Camera,eyeZ,The camera’s z-coordinate.,https://p5js.org/reference/p5.Camera/eyeZ/
+3D,p5.Camera,frustum(),Sets the camera's frustum.,https://p5js.org/reference/p5.Camera/frustum/
+3D,p5.Camera,lookAt(),Points the camera at a location.,https://p5js.org/reference/p5.Camera/lookAt/
+3D,p5.Camera,move(),"Moves the camera along its ""local"" axes without changing its orientation.",https://p5js.org/reference/p5.Camera/move/
+3D,p5.Camera,ortho(),Sets an orthographic projection for the camera.,https://p5js.org/reference/p5.Camera/ortho/
+3D,p5.Camera,pan(),Rotates the camera left and right.,https://p5js.org/reference/p5.Camera/pan/
+3D,p5.Camera,perspective(),Sets a perspective projection for the camera.,https://p5js.org/reference/p5.Camera/perspective/
+3D,p5.Camera,roll(),Rotates the camera in a clockwise/counter-clockwise direction.,https://p5js.org/reference/p5.Camera/roll/
+3D,p5.Camera,set(),"Sets the camera’s position, orientation, and projection by copying another camera.",https://p5js.org/reference/p5.Camera/set/
+3D,p5.Camera,setPosition(),"Sets the camera’s position in ""world"" space without changing its orientation.",https://p5js.org/reference/p5.Camera/setPosition/
+3D,p5.Camera,slerp(),Sets the camera’s position and orientation to values that are in-between those of two other cameras.,https://p5js.org/reference/p5.Camera/slerp/
+3D,p5.Camera,tilt(),Rotates the camera up and down.,https://p5js.org/reference/p5.Camera/tilt/
+3D,p5.Camera,upX,"The x-component of the camera's ""up"" vector.",https://p5js.org/reference/p5.Camera/upX/
+3D,p5.Camera,upY,"The y-component of the camera's ""up"" vector.",https://p5js.org/reference/p5.Camera/upY/
+3D,p5.Camera,upZ,"The z-component of the camera's ""up"" vector.",https://p5js.org/reference/p5.Camera/upZ/
+3D,p5.Shader,copyToContext(),Copies the shader from one drawing context to another.,https://p5js.org/reference/p5.Shader/copyToContext/
+3D,p5.Shader,inspectHooks(),"Logs the hooks available in this shader, and their current implementation.",https://p5js.org/reference/p5.Shader/inspectHooks/
+3D,p5.Shader,modify(),"Returns a new shader, based on the original, but with custom snippets of shader code replacing default behaviour.",https://p5js.org/reference/p5.Shader/modify/
+3D,p5.Shader,setUniform(),Sets the shader’s uniform (global) variables.,https://p5js.org/reference/p5.Shader/setUniform/
+Rendering,,blendMode(),Sets the way colors blend when added to the canvas.,https://p5js.org/reference/p5/blendMode/
+Rendering,,clearDepth(),Clears the depth buffer in WebGL mode.,https://p5js.org/reference/p5/clearDepth/
+Rendering,,createCanvas(),Creates a canvas element on the web page.,https://p5js.org/reference/p5/createCanvas/
+Rendering,,createFramebuffer(),Creates and a new p5.Framebuffer object.,https://p5js.org/reference/p5/createFramebuffer/
+Rendering,,createGraphics(),Creates a p5.Graphics object.,https://p5js.org/reference/p5/createGraphics/
+Rendering,,drawingContext,A system variable that provides direct access to the sketch's <canvas> element.,https://p5js.org/reference/p5/drawingContext/
+Rendering,,noCanvas(),Removes the default canvas.,https://p5js.org/reference/p5/noCanvas/
+Rendering,,resizeCanvas(),Resizes the canvas to a given width and height.,https://p5js.org/reference/p5/resizeCanvas/
+Rendering,,setAttributes(),Set attributes for the WebGL Drawing context,https://p5js.org/reference/p5/setAttributes/
+Rendering,p5.Framebuffer,autoSized(),Toggles the framebuffer's autosizing mode or returns the current mode.,https://p5js.org/reference/p5.Framebuffer/autoSized/
+Rendering,p5.Framebuffer,begin(),Begins drawing shapes to the framebuffer.,https://p5js.org/reference/p5.Framebuffer/begin/
+Rendering,p5.Framebuffer,color,An object that stores the framebuffer's color data.,https://p5js.org/reference/p5.Framebuffer/color/
+Rendering,p5.Framebuffer,createCamera(),Creates a new p5.Camera object to use with the framebuffer.,https://p5js.org/reference/p5.Framebuffer/createCamera/
+Rendering,p5.Framebuffer,depth,An object that stores the framebuffer's depth data.,https://p5js.org/reference/p5.Framebuffer/depth/
+Rendering,p5.Framebuffer,draw(),Draws to the framebuffer by calling a function that contains drawing instructions.,https://p5js.org/reference/p5.Framebuffer/draw/
+Rendering,p5.Framebuffer,end(),Stops drawing shapes to the framebuffer.,https://p5js.org/reference/p5.Framebuffer/end/
+Rendering,p5.Framebuffer,get(),Gets a pixel or a region of pixels from the framebuffer.,https://p5js.org/reference/p5.Framebuffer/get/
+Rendering,p5.Framebuffer,loadPixels(),Loads the current value of each pixel in the framebuffer into its pixels array.,https://p5js.org/reference/p5.Framebuffer/loadPixels/
+Rendering,p5.Framebuffer,pixelDensity(),Sets the framebuffer's pixel density or returns its current density.,https://p5js.org/reference/p5.Framebuffer/pixelDensity/
+Rendering,p5.Framebuffer,pixels,An array containing the color of each pixel in the framebuffer.,https://p5js.org/reference/p5.Framebuffer/pixels/
+Rendering,p5.Framebuffer,remove(),Deletes the framebuffer from GPU memory.,https://p5js.org/reference/p5.Framebuffer/remove/
+Rendering,p5.Framebuffer,resize(),Resizes the framebuffer to a given width and height.,https://p5js.org/reference/p5.Framebuffer/resize/
+Rendering,p5.Framebuffer,updatePixels(),Updates the framebuffer with the RGBA values in the pixels array.,https://p5js.org/reference/p5.Framebuffer/updatePixels/
+Rendering,p5.Graphics,createFramebuffer(),Creates a new p5.Framebuffer object with the same WebGL context as the graphics buffer.,https://p5js.org/reference/p5.Graphics/createFramebuffer/
+Rendering,p5.Graphics,remove(),Removes the graphics buffer from the web page.,https://p5js.org/reference/p5.Graphics/remove/
+Rendering,p5.Graphics,reset(),Resets the graphics buffer's transformations and lighting.,https://p5js.org/reference/p5.Graphics/reset/
+Math,Calculation,abs(),Calculates the absolute value of a number.,https://p5js.org/reference/p5/abs/
+Math,Calculation,ceil(),Calculates the closest integer value that is greater than or equal to a number.,https://p5js.org/reference/p5/ceil/
+Math,Calculation,constrain(),Constrains a number between a minimum and maximum value.,https://p5js.org/reference/p5/constrain/
+Math,Calculation,dist(),Calculates the distance between two points.,https://p5js.org/reference/p5/dist/
+Math,Calculation,exp(),Calculates the value of Euler's number e (2.71828...) raised to the power of a number.,https://p5js.org/reference/p5/exp/
+Math,Calculation,floor(),Calculates the closest integer value that is less than or equal to the value of a number.,https://p5js.org/reference/p5/floor/
+Math,Calculation,fract(),Calculates the fractional part of a number.,https://p5js.org/reference/p5/fract/
+Math,Calculation,lerp(),Calculates a number between two numbers at a specific increment.,https://p5js.org/reference/p5/lerp/
+Math,Calculation,log(),Calculates the natural logarithm (the base-e logarithm) of a number.,https://p5js.org/reference/p5/log/
+Math,Calculation,mag(),"Calculates the magnitude, or length, of a vector.",https://p5js.org/reference/p5/mag/
+Math,Calculation,map(),Re-maps a number from one range to another.,https://p5js.org/reference/p5/map/
+Math,Calculation,max(),Returns the largest value in a sequence of numbers.,https://p5js.org/reference/p5/max/
+Math,Calculation,min(),Returns the smallest value in a sequence of numbers.,https://p5js.org/reference/p5/min/
+Math,Calculation,norm(),Maps a number from one range to a value between 0 and 1.,https://p5js.org/reference/p5/norm/
+Math,Calculation,pow(),Calculates exponential expressions such as 2^3.,https://p5js.org/reference/p5/pow/
+Math,Calculation,round(),Calculates the integer closest to a number.,https://p5js.org/reference/p5/round/
+Math,Calculation,sq(),Calculates the square of a number.,https://p5js.org/reference/p5/sq/
+Math,Calculation,sqrt(),Calculates the square root of a number.,https://p5js.org/reference/p5/sqrt/
+Math,Noise,noise(),Returns random numbers that can be tuned to feel organic.,https://p5js.org/reference/p5/noise/
+Math,Noise,noiseDetail(),Adjusts the character of the noise produced by the noise() function.,https://p5js.org/reference/p5/noiseDetail/
+Math,Noise,noiseSeed(),Sets the seed value for the noise() function.,https://p5js.org/reference/p5/noiseSeed/
+Math,Random,random(),Returns a random number or a random element from an array.,https://p5js.org/reference/p5/random/
+Math,Random,randomGaussian(),"Returns a random number fitting a Gaussian, or normal, distribution.",https://p5js.org/reference/p5/randomGaussian/
+Math,Random,randomSeed(),Sets the seed value for the random() and randomGaussian() functions.,https://p5js.org/reference/p5/randomSeed/
+Math,Trigonometry,acos(),Calculates the arc cosine of a number.,https://p5js.org/reference/p5/acos/
+Math,Trigonometry,angleMode(),Changes the unit system used to measure angles.,https://p5js.org/reference/p5/angleMode/
+Math,Trigonometry,asin(),Calculates the arc sine of a number.,https://p5js.org/reference/p5/asin/
+Math,Trigonometry,atan(),Calculates the arc tangent of a number.,https://p5js.org/reference/p5/atan/
+Math,Trigonometry,atan2(),"Calculates the angle formed by a point, the origin, and the positive x-axis.",https://p5js.org/reference/p5/atan2/
+Math,Trigonometry,cos(),Calculates the cosine of an angle.,https://p5js.org/reference/p5/cos/
+Math,Trigonometry,degrees(),Converts an angle measured in radians to its value in degrees.,https://p5js.org/reference/p5/degrees/
+Math,Trigonometry,radians(),Converts an angle measured in degrees to its value in radians.,https://p5js.org/reference/p5/radians/
+Math,Trigonometry,sin(),Calculates the sine of an angle.,https://p5js.org/reference/p5/sin/
+Math,Trigonometry,tan(),Calculates the tangent of an angle.,https://p5js.org/reference/p5/tan/
+Math,Vector,createVector(),Creates a new p5.Vector object.,https://p5js.org/reference/p5/createVector/
+Math,p5.Vector,add(),"Adds to a vector's x, y, and z components.",https://p5js.org/reference/p5.Vector/add/
+Math,p5.Vector,angleBetween(),Calculates the angle between two vectors.,https://p5js.org/reference/p5.Vector/angleBetween/
+Math,p5.Vector,array(),Returns the vector's components as an array of numbers.,https://p5js.org/reference/p5.Vector/array/
+Math,p5.Vector,clampToZero(),Replaces the components of a p5.Vector that are very close to zero with zero.,https://p5js.org/reference/p5.Vector/clampToZero/
+Math,p5.Vector,copy(),Returns a copy of the p5.Vector object.,https://p5js.org/reference/p5.Vector/copy/
+Math,p5.Vector,cross(),Calculates the cross product of two vectors.,https://p5js.org/reference/p5.Vector/cross/
+Math,p5.Vector,dist(),Calculates the distance between two points represented by vectors.,https://p5js.org/reference/p5.Vector/dist/
+Math,p5.Vector,div(),"Divides a vector's x, y, and z components.",https://p5js.org/reference/p5.Vector/div/
+Math,p5.Vector,dot(),Calculates the dot product of two vectors.,https://p5js.org/reference/p5.Vector/dot/
+Math,p5.Vector,equals(),Checks whether all the vector's components are equal to another vector's.,https://p5js.org/reference/p5.Vector/equals/
+Math,p5.Vector,fromAngle(),Creates a new 2D vector from an angle.,https://p5js.org/reference/p5.Vector/fromAngle/
+Math,p5.Vector,fromAngles(),Creates a new 3D vector from a pair of ISO spherical angles.,https://p5js.org/reference/p5.Vector/fromAngles/
+Math,p5.Vector,heading(),Calculates the angle a 2D vector makes with the positive x-axis.,https://p5js.org/reference/p5.Vector/heading/
+Math,p5.Vector,lerp(),"Calculates new x, y, and z components that are proportionally the same distance between two vectors.",https://p5js.org/reference/p5.Vector/lerp/
+Math,p5.Vector,limit(),Limits a vector's magnitude to a maximum value.,https://p5js.org/reference/p5.Vector/limit/
+Math,p5.Vector,mag(),Calculates the magnitude (length) of the vector.,https://p5js.org/reference/p5.Vector/mag/
+Math,p5.Vector,magSq(),Calculates the magnitude (length) of the vector squared.,https://p5js.org/reference/p5.Vector/magSq/
+Math,p5.Vector,mult(),"Multiplies a vector's x, y, and z components.",https://p5js.org/reference/p5.Vector/mult/
+Math,p5.Vector,normalize(),Scales the components of a p5.Vector object so that its magnitude is 1.,https://p5js.org/reference/p5.Vector/normalize/
+Math,p5.Vector,random2D(),Creates a new 2D unit vector with a random heading.,https://p5js.org/reference/p5.Vector/random2D/
+Math,p5.Vector,random3D(),Creates a new 3D unit vector with a random heading.,https://p5js.org/reference/p5.Vector/random3D/
+Math,p5.Vector,reflect(),Reflects a vector about a line in 2D or a plane in 3D.,https://p5js.org/reference/p5.Vector/reflect/
+Math,p5.Vector,rem(),"Performs modulo (remainder) division with a vector's x, y, and z components.",https://p5js.org/reference/p5.Vector/rem/
+Math,p5.Vector,rotate(),Rotates a 2D vector by an angle without changing its magnitude.,https://p5js.org/reference/p5.Vector/rotate/
+Math,p5.Vector,set(),"Sets the vector's x, y, and z components.",https://p5js.org/reference/p5.Vector/set/
+Math,p5.Vector,setHeading(),Rotates a 2D vector to a specific angle without changing its magnitude.,https://p5js.org/reference/p5.Vector/setHeading/
+Math,p5.Vector,setMag(),Sets a vector's magnitude to a given value.,https://p5js.org/reference/p5.Vector/setMag/
+Math,p5.Vector,slerp(),Calculates a new heading and magnitude that are between two vectors.,https://p5js.org/reference/p5.Vector/slerp/
+Math,p5.Vector,sub(),"Subtracts from a vector's x, y, and z components.",https://p5js.org/reference/p5.Vector/sub/
+Math,p5.Vector,toString(),Returns a string representation of a vector.,https://p5js.org/reference/p5.Vector/toString/
+Math,p5.Vector,x,The x component of the vector,https://p5js.org/reference/p5.Vector/x/
+Math,p5.Vector,y,The y component of the vector,https://p5js.org/reference/p5.Vector/y/
+Math,p5.Vector,z,The z component of the vector,https://p5js.org/reference/p5.Vector/z/
+IO,Input,httpDo(),Method for executing an HTTP request,https://p5js.org/reference/p5/httpDo/
+IO,Input,httpGet(),Method for executing an HTTP GET request,https://p5js.org/reference/p5/httpGet/
+IO,Input,httpPost(),Method for executing an HTTP POST request,https://p5js.org/reference/p5/httpPost/
+IO,Input,loadBytes(),This method is suitable for fetching files up to size of 64MB.,https://p5js.org/reference/p5/loadBytes/
+IO,Input,loadJSON(),Loads a JSON file to create an Object.,https://p5js.org/reference/p5/loadJSON/
+IO,Input,loadStrings(),Loads a text file to create an Array.,https://p5js.org/reference/p5/loadStrings/
+IO,Input,loadTable(),Reads the contents of a file or URL and creates a p5.Table object with its values,https://p5js.org/reference/p5/loadTable/
+IO,Input,loadXML(),Loads an XML file to create a p5.XML object.,https://p5js.org/reference/p5/loadXML/
+IO,Output,createWriter(),Creates a new p5.PrintWriter object.,https://p5js.org/reference/p5/createWriter/
+IO,Output,p5.PrintWriter,A class to describe a print stream.,https://p5js.org/reference/p5/p5.PrintWriter/
+IO,Output,save(),"Saves a given element(image, text, json, csv, wav, or html) to the client's computer",https://p5js.org/reference/p5/save/
+IO,Output,saveJSON(),Saves an Object or Array to a JSON file.,https://p5js.org/reference/p5/saveJSON/
+IO,Output,saveStrings(),"Saves an Array of Strings to a file, one per line.",https://p5js.org/reference/p5/saveStrings/
+IO,Output,saveTable(),Writes the contents of a Table object to a file,https://p5js.org/reference/p5/saveTable/
+IO,Time & Date,day(),Returns the current day as a number from 1–31.,https://p5js.org/reference/p5/day/
+IO,Time & Date,hour(),Returns the current hour as a number from 0–23.,https://p5js.org/reference/p5/hour/
+IO,Time & Date,millis(),Returns the number of milliseconds since a sketch started running.,https://p5js.org/reference/p5/millis/
+IO,Time & Date,minute(),Returns the current minute as a number from 0–59.,https://p5js.org/reference/p5/minute/
+IO,Time & Date,month(),Returns the current month as a number from 1–12.,https://p5js.org/reference/p5/month/
+IO,Time & Date,second(),Returns the current second as a number from 0–59.,https://p5js.org/reference/p5/second/
+IO,Time & Date,year(),Returns the current year as a number such as 1999.,https://p5js.org/reference/p5/year/
+IO,p5.Table,addColumn(),Use addColumn() to add a new column to a Table object,https://p5js.org/reference/p5.Table/addColumn/
+IO,p5.Table,addRow(),Use addRow() to add a new row of data to a p5.Table object,https://p5js.org/reference/p5.Table/addRow/
+IO,p5.Table,clearRows(),Removes all rows from a Table,https://p5js.org/reference/p5.Table/clearRows/
+IO,p5.Table,findRow(),"Finds the first row in the Table that contains the value provided, and returns a reference to that row",https://p5js.org/reference/p5.Table/findRow/
+IO,p5.Table,findRows(),"Finds the rows in the Table that contain the value provided, and returns references to those rows",https://p5js.org/reference/p5.Table/findRows/
+IO,p5.Table,get(),Retrieves a value from the Table's specified row and column,https://p5js.org/reference/p5.Table/get/
+IO,p5.Table,getArray(),Retrieves all table data and returns it as a multidimensional array.,https://p5js.org/reference/p5.Table/getArray/
+IO,p5.Table,getColumn(),"Retrieves all values in the specified column, and returns them as an array",https://p5js.org/reference/p5.Table/getColumn/
+IO,p5.Table,getColumnCount(),Returns the total number of columns in a Table.,https://p5js.org/reference/p5.Table/getColumnCount/
+IO,p5.Table,getNum(),Retrieves a Float value from the Table's specified row and column,https://p5js.org/reference/p5.Table/getNum/
+IO,p5.Table,getObject(),Retrieves all table data and returns as an object,https://p5js.org/reference/p5.Table/getObject/
+IO,p5.Table,getRow(),Returns a reference to the specified p5.TableRow,https://p5js.org/reference/p5.Table/getRow/
+IO,p5.Table,getRowCount(),Returns the total number of rows in a Table.,https://p5js.org/reference/p5.Table/getRowCount/
+IO,p5.Table,getRows(),Gets all rows from the table,https://p5js.org/reference/p5.Table/getRows/
+IO,p5.Table,getString(),Retrieves a String value from the Table's specified row and column,https://p5js.org/reference/p5.Table/getString/
+IO,p5.Table,matchRow(),"Finds the first row in the Table that matches the regular expression provided, and returns a reference to that row",https://p5js.org/reference/p5.Table/matchRow/
+IO,p5.Table,matchRows(),"Finds the rows in the Table that match the regular expression provided, and returns references to those rows",https://p5js.org/reference/p5.Table/matchRows/
+IO,p5.Table,removeColumn(),Use removeColumn() to remove an existing column from a Table object,https://p5js.org/reference/p5.Table/removeColumn/
+IO,p5.Table,removeRow(),Removes a row from the table object.,https://p5js.org/reference/p5.Table/removeRow/
+IO,p5.Table,removeTokens(),"Removes any of the specified characters (or ""tokens"").",https://p5js.org/reference/p5.Table/removeTokens/
+IO,p5.Table,rows,An array containing the p5.TableRow objects that make up the rows of the table,https://p5js.org/reference/p5.Table/rows/
+IO,p5.Table,set(),Stores a value in the Table's specified row and column,https://p5js.org/reference/p5.Table/set/
+IO,p5.Table,setNum(),Stores a Float value in the Table's specified row and column,https://p5js.org/reference/p5.Table/setNum/
+IO,p5.Table,setString(),Stores a String value in the Table's specified row and column,https://p5js.org/reference/p5.Table/setString/
+IO,p5.Table,trim(),"Trims leading and trailing whitespace, such as spaces and tabs, from String table values",https://p5js.org/reference/p5.Table/trim/
+IO,p5.TableRow,get(),Retrieves a value from the TableRow's specified column,https://p5js.org/reference/p5.TableRow/get/
+IO,p5.TableRow,getNum(),Retrieves a Float value from the TableRow's specified column,https://p5js.org/reference/p5.TableRow/getNum/
+IO,p5.TableRow,getString(),Retrieves an String value from the TableRow's specified column,https://p5js.org/reference/p5.TableRow/getString/
+IO,p5.TableRow,set(),Stores a value in the TableRow's specified column,https://p5js.org/reference/p5.TableRow/set/
+IO,p5.TableRow,setNum(),Stores a Float value in the TableRow's specified column,https://p5js.org/reference/p5.TableRow/setNum/
+IO,p5.TableRow,setString(),Stores a String value in the TableRow's specified column,https://p5js.org/reference/p5.TableRow/setString/
+IO,p5.XML,addChild(),Adds a new child element and returns a reference to it.,https://p5js.org/reference/p5.XML/addChild/
+IO,p5.XML,getAttributeCount(),Returns the number of attributes the element has.,https://p5js.org/reference/p5.XML/getAttributeCount/
+IO,p5.XML,getChild(),Returns the first matching child element as a new p5.XML object.,https://p5js.org/reference/p5.XML/getChild/
+IO,p5.XML,getChildren(),Returns an array with the element's child elements as new p5.XML objects.,https://p5js.org/reference/p5.XML/getChildren/
+IO,p5.XML,getContent(),Returns the element's content as a String.,https://p5js.org/reference/p5.XML/getContent/
+IO,p5.XML,getName(),Returns the element's name as a String.,https://p5js.org/reference/p5.XML/getName/
+IO,p5.XML,getNum(),Return an attribute's value as a Number.,https://p5js.org/reference/p5.XML/getNum/
+IO,p5.XML,getParent(),Returns the element's parent element as a new p5.XML object.,https://p5js.org/reference/p5.XML/getParent/
+IO,p5.XML,getString(),Return an attribute's value as a string.,https://p5js.org/reference/p5.XML/getString/
+IO,p5.XML,hasAttribute(),Returns true if the element has a given attribute and false if not.,https://p5js.org/reference/p5.XML/hasAttribute/
+IO,p5.XML,hasChildren(),Returns true if the element has child elements and false if not.,https://p5js.org/reference/p5.XML/hasChildren/
+IO,p5.XML,listAttributes(),Returns an Array with the names of the element's attributes.,https://p5js.org/reference/p5.XML/listAttributes/
+IO,p5.XML,listChildren(),Returns an array with the names of the element's child elements as Strings.,https://p5js.org/reference/p5.XML/listChildren/
+IO,p5.XML,removeChild(),Removes the first matching child element.,https://p5js.org/reference/p5.XML/removeChild/
+IO,p5.XML,serialize(),Returns the element as a String.,https://p5js.org/reference/p5.XML/serialize/
+IO,p5.XML,setAttribute(),Sets an attribute to a given value.,https://p5js.org/reference/p5.XML/setAttribute/
+IO,p5.XML,setContent(),Sets the element's content.,https://p5js.org/reference/p5.XML/setContent/
+IO,p5.XML,setName(),Sets the element's tag name.,https://p5js.org/reference/p5.XML/setName/
+Events,Acceleration,accelerationX,The system variable accelerationX always contains the acceleration of the device along the x axis,https://p5js.org/reference/p5/accelerationX/
+Events,Acceleration,accelerationY,The system variable accelerationY always contains the acceleration of the device along the y axis,https://p5js.org/reference/p5/accelerationY/
+Events,Acceleration,accelerationZ,The system variable accelerationZ always contains the acceleration of the device along the z axis,https://p5js.org/reference/p5/accelerationZ/
+Events,Acceleration,deviceMoved(),"The deviceMoved() function is called when the device is moved by more than the threshold value along X, Y or Z axis",https://p5js.org/reference/p5/deviceMoved/
+Events,Acceleration,deviceOrientation,The system variable deviceOrientation always contains the orientation of the device,https://p5js.org/reference/p5/deviceOrientation/
+Events,Acceleration,deviceShaken(),The deviceShaken() function is called when the device total acceleration changes of accelerationX and accelerationY values is more than the threshold value,https://p5js.org/reference/p5/deviceShaken/
+Events,Acceleration,deviceTurned(),The deviceTurned() function is called when the device rotates by more than 90 degrees continuously.,https://p5js.org/reference/p5/deviceTurned/
+Events,Acceleration,pAccelerationX,The system variable pAccelerationX always contains the acceleration of the device along the x axis in the frame previous to the current frame,https://p5js.org/reference/p5/pAccelerationX/
+Events,Acceleration,pAccelerationY,The system variable pAccelerationY always contains the acceleration of the device along the y axis in the frame previous to the current frame,https://p5js.org/reference/p5/pAccelerationY/
+Events,Acceleration,pAccelerationZ,The system variable pAccelerationZ always contains the acceleration of the device along the z axis in the frame previous to the current frame,https://p5js.org/reference/p5/pAccelerationZ/
+Events,Acceleration,pRotationX,The system variable pRotationX always contains the rotation of the device along the x axis in the frame previous to the current frame,https://p5js.org/reference/p5/pRotationX/
+Events,Acceleration,pRotationY,The system variable pRotationY always contains the rotation of the device along the y axis in the frame previous to the current frame,https://p5js.org/reference/p5/pRotationY/
+Events,Acceleration,pRotationZ,The system variable pRotationZ always contains the rotation of the device along the z axis in the frame previous to the current frame,https://p5js.org/reference/p5/pRotationZ/
+Events,Acceleration,rotationX,The system variable rotationX always contains the rotation of the device along the x axis,https://p5js.org/reference/p5/rotationX/
+Events,Acceleration,rotationY,The system variable rotationY always contains the rotation of the device along the y axis,https://p5js.org/reference/p5/rotationY/
+Events,Acceleration,rotationZ,The system variable rotationZ always contains the rotation of the device along the z axis,https://p5js.org/reference/p5/rotationZ/
+Events,Acceleration,setMoveThreshold(),The setMoveThreshold() function is used to set the movement threshold for the deviceMoved() function,https://p5js.org/reference/p5/setMoveThreshold/
+Events,Acceleration,setShakeThreshold(),The setShakeThreshold() function is used to set the movement threshold for the deviceShaken() function,https://p5js.org/reference/p5/setShakeThreshold/
+Events,Acceleration,turnAxis,"When a device is rotated, the axis that triggers the deviceTurned() method is stored in the turnAxis variable",https://p5js.org/reference/p5/turnAxis/
+Events,Keyboard,key,A String system variable that contains the value of the last key typed.,https://p5js.org/reference/p5/key/
+Events,Keyboard,keyCode,A Number system variable that contains the code of the last key typed.,https://p5js.org/reference/p5/keyCode/
+Events,Keyboard,keyIsDown(),Returns true if the key it’s checking is pressed and false if not.,https://p5js.org/reference/p5/keyIsDown/
+Events,Keyboard,keyIsPressed,A Boolean system variable that's true if any key is currently pressed and false if not.,https://p5js.org/reference/p5/keyIsPressed/
+Events,Keyboard,keyPressed(),A function that's called once when any key is pressed.,https://p5js.org/reference/p5/keyPressed/
+Events,Keyboard,keyReleased(),A function that's called once when any key is released.,https://p5js.org/reference/p5/keyReleased/
+Events,Keyboard,keyTyped(),A function that's called once when keys with printable characters are pressed.,https://p5js.org/reference/p5/keyTyped/
+Events,Mouse,doubleClicked(),A function that's called once when a mouse button is clicked twice quickly.,https://p5js.org/reference/p5/doubleClicked/
+Events,Mouse,exitPointerLock(),Exits a pointer lock started with requestPointerLock.,https://p5js.org/reference/p5/exitPointerLock/
+Events,Mouse,mouseButton,A String system variable that contains the value of the last mouse button pressed.,https://p5js.org/reference/p5/mouseButton/
+Events,Mouse,mouseClicked(),A function that's called once after a mouse button is pressed and released.,https://p5js.org/reference/p5/mouseClicked/
+Events,Mouse,mouseDragged(),A function that's called when the mouse moves while a button is pressed.,https://p5js.org/reference/p5/mouseDragged/
+Events,Mouse,mouseIsPressed,A Boolean system variable that's true if the mouse is pressed and false if not.,https://p5js.org/reference/p5/mouseIsPressed/
+Events,Mouse,mouseMoved(),A function that's called when the mouse moves.,https://p5js.org/reference/p5/mouseMoved/
+Events,Mouse,mousePressed(),A function that's called once when a mouse button is pressed.,https://p5js.org/reference/p5/mousePressed/
+Events,Mouse,mouseReleased(),A function that's called once when a mouse button is released.,https://p5js.org/reference/p5/mouseReleased/
+Events,Mouse,mouseWheel(),A function that's called once when the mouse wheel moves.,https://p5js.org/reference/p5/mouseWheel/
+Events,Mouse,mouseX,A Number system variable that tracks the mouse's horizontal position.,https://p5js.org/reference/p5/mouseX/
+Events,Mouse,mouseY,A Number system variable that tracks the mouse's vertical position.,https://p5js.org/reference/p5/mouseY/
+Events,Mouse,movedX,A Number system variable that tracks the mouse's horizontal movement.,https://p5js.org/reference/p5/movedX/
+Events,Mouse,movedY,A Number system variable that tracks the mouse's vertical movement.,https://p5js.org/reference/p5/movedY/
+Events,Mouse,pmouseX,A Number system variable that tracks the mouse's previous horizontal position.,https://p5js.org/reference/p5/pmouseX/
+Events,Mouse,pmouseY,A Number system variable that tracks the mouse's previous vertical position.,https://p5js.org/reference/p5/pmouseY/
+Events,Mouse,pwinMouseX,A Number variable that tracks the mouse's previous horizontal position within the browser.,https://p5js.org/reference/p5/pwinMouseX/
+Events,Mouse,pwinMouseY,A Number variable that tracks the mouse's previous vertical position within the browser.,https://p5js.org/reference/p5/pwinMouseY/
+Events,Mouse,requestPointerLock(),Locks the mouse pointer to its current position and makes it invisible.,https://p5js.org/reference/p5/requestPointerLock/
+Events,Mouse,winMouseX,A Number variable that tracks the mouse's horizontal position within the browser.,https://p5js.org/reference/p5/winMouseX/
+Events,Mouse,winMouseY,A Number variable that tracks the mouse's vertical position within the browser.,https://p5js.org/reference/p5/winMouseY/
+Events,Touch,touchEnded(),A function that's called once each time a screen touch ends.,https://p5js.org/reference/p5/touchEnded/
+Events,Touch,touchMoved(),A function that's called when the user touches the screen and moves.,https://p5js.org/reference/p5/touchMoved/
+Events,Touch,touchStarted(),A function that's called once each time the user touches the screen.,https://p5js.org/reference/p5/touchStarted/
+Events,Touch,touches,An Array of all the current touch points on a touchscreen device.,https://p5js.org/reference/p5/touches/
+DOM,,changed(),Calls a function when the element changes.,https://p5js.org/reference/p5/changed/
+DOM,,createA(),Creates an <a> element that links to another web page.,https://p5js.org/reference/p5/createA/
+DOM,,createAudio(),Creates a hidden <audio> element for simple audio playback.,https://p5js.org/reference/p5/createAudio/
+DOM,,createButton(),Creates a <button></button> element.,https://p5js.org/reference/p5/createButton/
+DOM,,createCapture(),"Creates a <video> element that ""captures"" the audio/video stream from the webcam and microphone.",https://p5js.org/reference/p5/createCapture/
+DOM,,createCheckbox(),Creates a checkbox <input></input> element.,https://p5js.org/reference/p5/createCheckbox/
+DOM,,createColorPicker(),Creates a color picker element.,https://p5js.org/reference/p5/createColorPicker/
+DOM,,createDiv(),Creates a <div></div> element.,https://p5js.org/reference/p5/createDiv/
+DOM,,createElement(),Creates a new p5.Element object.,https://p5js.org/reference/p5/createElement/
+DOM,,createFileInput(),Creates an <input></input> element of type 'file'.,https://p5js.org/reference/p5/createFileInput/
+DOM,,createImg(),Creates an <img> element that can appear outside of the canvas.,https://p5js.org/reference/p5/createImg/
+DOM,,createInput(),Creates a text <input></input> element.,https://p5js.org/reference/p5/createInput/
+DOM,,createP(),Creates a paragraph element.,https://p5js.org/reference/p5/createP/
+DOM,,createRadio(),Creates a radio button element.,https://p5js.org/reference/p5/createRadio/
+DOM,,createSlider(),Creates a slider <input></input> element.,https://p5js.org/reference/p5/createSlider/
+DOM,,createSpan(),Creates a <span></span> element.,https://p5js.org/reference/p5/createSpan/
+DOM,,createVideo(),Creates a <video> element for simple audio/video playback.,https://p5js.org/reference/p5/createVideo/
+DOM,,input(),Calls a function when the element receives input.,https://p5js.org/reference/p5/input/
+DOM,,removeElements(),"Removes all elements created by p5.js, including any event handlers.",https://p5js.org/reference/p5/removeElements/
+DOM,,select(),Searches the page for the first element that matches the given CSS selector string.,https://p5js.org/reference/p5/select/
+DOM,,selectAll(),Searches the page for all elements that matches the given CSS selector string.,https://p5js.org/reference/p5/selectAll/
+DOM,p5.Element,addClass(),Adds a class to the element.,https://p5js.org/reference/p5.Element/addClass/
+DOM,p5.Element,attribute(),Adds an attribute to the element.,https://p5js.org/reference/p5.Element/attribute/
+DOM,p5.Element,center(),"Centers the element either vertically, horizontally, or both.",https://p5js.org/reference/p5.Element/center/
+DOM,p5.Element,child(),Attaches the element as a child of another element.,https://p5js.org/reference/p5.Element/child/
+DOM,p5.Element,class(),Adds a class attribute to the element using a given string.,https://p5js.org/reference/p5.Element/class/
+DOM,p5.Element,doubleClicked(),Calls a function when the mouse is pressed twice over the element.,https://p5js.org/reference/p5.Element/doubleClicked/
+DOM,p5.Element,dragLeave(),Calls a function when a file is dragged off the element.,https://p5js.org/reference/p5.Element/dragLeave/
+DOM,p5.Element,dragOver(),Calls a function when a file is dragged over the element.,https://p5js.org/reference/p5.Element/dragOver/
+DOM,p5.Element,draggable(),Makes the element draggable.,https://p5js.org/reference/p5.Element/draggable/
+DOM,p5.Element,drop(),Calls a function when the user drops a file on the element.,https://p5js.org/reference/p5.Element/drop/
+DOM,p5.Element,elt,The element's underlying HTMLElement object.,https://p5js.org/reference/p5.Element/elt/
+DOM,p5.Element,hasClass(),Checks if a class is already applied to element.,https://p5js.org/reference/p5.Element/hasClass/
+DOM,p5.Element,height,A Number property that stores the element's height.,https://p5js.org/reference/p5.Element/height/
+DOM,p5.Element,hide(),Hides the current element.,https://p5js.org/reference/p5.Element/hide/
+DOM,p5.Element,html(),"Sets the inner HTML of the element, replacing any existing HTML.",https://p5js.org/reference/p5.Element/html/
+DOM,p5.Element,id(),Sets the element's ID using a given string.,https://p5js.org/reference/p5.Element/id/
+DOM,p5.Element,mouseClicked(),Calls a function when the mouse is pressed and released over the element.,https://p5js.org/reference/p5.Element/mouseClicked/
+DOM,p5.Element,mouseMoved(),Calls a function when the mouse moves over the element.,https://p5js.org/reference/p5.Element/mouseMoved/
+DOM,p5.Element,mouseOut(),Calls a function when the mouse moves off the element.,https://p5js.org/reference/p5.Element/mouseOut/
+DOM,p5.Element,mouseOver(),Calls a function when the mouse moves onto the element.,https://p5js.org/reference/p5.Element/mouseOver/
+DOM,p5.Element,mousePressed(),Calls a function when the mouse is pressed over the element.,https://p5js.org/reference/p5.Element/mousePressed/
+DOM,p5.Element,mouseReleased(),Calls a function when the mouse is released over the element.,https://p5js.org/reference/p5.Element/mouseReleased/
+DOM,p5.Element,mouseWheel(),Calls a function when the mouse wheel scrolls over the element.,https://p5js.org/reference/p5.Element/mouseWheel/
+DOM,p5.Element,parent(),Attaches the element to a parent element.,https://p5js.org/reference/p5.Element/parent/
+DOM,p5.Element,position(),Sets the element's position.,https://p5js.org/reference/p5.Element/position/
+DOM,p5.Element,remove(),"Removes the element, stops all audio/video streams, and removes all callback functions.",https://p5js.org/reference/p5.Element/remove/
+DOM,p5.Element,removeAttribute(),Removes an attribute from the element.,https://p5js.org/reference/p5.Element/removeAttribute/
+DOM,p5.Element,removeClass(),Removes a class from the element.,https://p5js.org/reference/p5.Element/removeClass/
+DOM,p5.Element,show(),Shows the current element.,https://p5js.org/reference/p5.Element/show/
+DOM,p5.Element,size(),Sets the element's width and height.,https://p5js.org/reference/p5.Element/size/
+DOM,p5.Element,style(),Applies a style to the element by adding a CSS declaration.,https://p5js.org/reference/p5.Element/style/
+DOM,p5.Element,toggleClass(),Toggles whether a class is applied to the element.,https://p5js.org/reference/p5.Element/toggleClass/
+DOM,p5.Element,touchEnded(),Calls a function when the user stops touching the element.,https://p5js.org/reference/p5.Element/touchEnded/
+DOM,p5.Element,touchMoved(),Calls a function when the user touches the element and moves.,https://p5js.org/reference/p5.Element/touchMoved/
+DOM,p5.Element,touchStarted(),Calls a function when the element is touched.,https://p5js.org/reference/p5.Element/touchStarted/
+DOM,p5.Element,value(),Returns or sets the element's value.,https://p5js.org/reference/p5.Element/value/
+DOM,p5.Element,width,A Number property that stores the element's width.,https://p5js.org/reference/p5.Element/width/
+DOM,p5.File,data,A string containing the file's data.,https://p5js.org/reference/p5.File/data/
+DOM,p5.File,file,Underlying File object,https://p5js.org/reference/p5.File/file/
+DOM,p5.File,name,The file name as a string.,https://p5js.org/reference/p5.File/name/
+DOM,p5.File,size,The number of bytes in the file.,https://p5js.org/reference/p5.File/size/
+DOM,p5.File,subtype,The file subtype as a string.,https://p5js.org/reference/p5.File/subtype/
+DOM,p5.File,type,The file MIME type as a string.,https://p5js.org/reference/p5.File/type/
+DOM,p5.MediaElement,addCue(),Schedules a function to call when the audio/video reaches a specific time during its playback.,https://p5js.org/reference/p5.MediaElement/addCue/
+DOM,p5.MediaElement,autoplay(),Sets the audio/video to play once it's loaded.,https://p5js.org/reference/p5.MediaElement/autoplay/
+DOM,p5.MediaElement,clearCues(),Removes all functions scheduled with media.addCue().,https://p5js.org/reference/p5.MediaElement/clearCues/
+DOM,p5.MediaElement,connect(),Sends the element's audio to an output.,https://p5js.org/reference/p5.MediaElement/connect/
+DOM,p5.MediaElement,disconnect(),"Disconnect all Web Audio routing, including to the main output.",https://p5js.org/reference/p5.MediaElement/disconnect/
+DOM,p5.MediaElement,duration(),Returns the audio/video's duration in seconds.,https://p5js.org/reference/p5.MediaElement/duration/
+DOM,p5.MediaElement,hideControls(),Hide the default HTMLMediaElement controls.,https://p5js.org/reference/p5.MediaElement/hideControls/
+DOM,p5.MediaElement,loop(),Plays the audio/video repeatedly in a loop.,https://p5js.org/reference/p5.MediaElement/loop/
+DOM,p5.MediaElement,noLoop(),Stops the audio/video from playing in a loop.,https://p5js.org/reference/p5.MediaElement/noLoop/
+DOM,p5.MediaElement,onended(),Calls a function when the audio/video reaches the end of its playback.,https://p5js.org/reference/p5.MediaElement/onended/
+DOM,p5.MediaElement,pause(),Pauses a media element.,https://p5js.org/reference/p5.MediaElement/pause/
+DOM,p5.MediaElement,play(),Plays audio or video from a media element.,https://p5js.org/reference/p5.MediaElement/play/
+DOM,p5.MediaElement,removeCue(),Removes a callback based on its ID.,https://p5js.org/reference/p5.MediaElement/removeCue/
+DOM,p5.MediaElement,showControls(),Show the default HTMLMediaElement controls.,https://p5js.org/reference/p5.MediaElement/showControls/
+DOM,p5.MediaElement,speed(),Sets the audio/video playback speed.,https://p5js.org/reference/p5.MediaElement/speed/
+DOM,p5.MediaElement,src,Path to the media element's source as a string.,https://p5js.org/reference/p5.MediaElement/src/
+DOM,p5.MediaElement,stop(),Stops a media element and sets its current time to 0.,https://p5js.org/reference/p5.MediaElement/stop/
+DOM,p5.MediaElement,time(),Sets the media element's playback time.,https://p5js.org/reference/p5.MediaElement/time/
+DOM,p5.MediaElement,volume(),Sets the audio/video volume.,https://p5js.org/reference/p5.MediaElement/volume/
+Data,Array Functions,append(),Adds a value to the end of an array,https://p5js.org/reference/p5/append/
+Data,Array Functions,arrayCopy(),Copies an array (or part of an array) to another array,https://p5js.org/reference/p5/arrayCopy/
+Data,Array Functions,concat(),"Concatenates two arrays, maps to Array.concat()",https://p5js.org/reference/p5/concat/
+Data,Array Functions,reverse(),"Reverses the order of an array, maps to Array.reverse()",https://p5js.org/reference/p5/reverse/
+Data,Array Functions,shorten(),"Decreases an array by one element and returns the shortened array, maps to Array.pop().",https://p5js.org/reference/p5/shorten/
+Data,Array Functions,shuffle(),Shuffles the elements of an array.,https://p5js.org/reference/p5/shuffle/
+Data,Array Functions,sort(),"Sorts an array of numbers from smallest to largest, or puts an array of words in alphabetical order",https://p5js.org/reference/p5/sort/
+Data,Array Functions,splice(),Inserts a value or an array of values into an existing array,https://p5js.org/reference/p5/splice/
+Data,Array Functions,subset(),Extracts an array of elements from an existing array,https://p5js.org/reference/p5/subset/
+Data,Conversion,boolean(),Converts a String or Number to a Boolean.,https://p5js.org/reference/p5/boolean/
+Data,Conversion,byte(),"Converts a Boolean, String, or Number to its byte value.",https://p5js.org/reference/p5/byte/
+Data,Conversion,char(),Converts a Number or String to a single-character String.,https://p5js.org/reference/p5/char/
+Data,Conversion,float(),Converts a String to a floating point (decimal) Number.,https://p5js.org/reference/p5/float/
+Data,Conversion,hex(),Converts a Number to a String with its hexadecimal value.,https://p5js.org/reference/p5/hex/
+Data,Conversion,int(),"Converts a Boolean, String, or decimal Number to an integer.",https://p5js.org/reference/p5/int/
+Data,Conversion,str(),Converts a Boolean or Number to String.,https://p5js.org/reference/p5/str/
+Data,Conversion,unchar(),Converts a single-character String to a Number.,https://p5js.org/reference/p5/unchar/
+Data,Conversion,unhex(),Converts a String with a hexadecimal value to a Number.,https://p5js.org/reference/p5/unhex/
+Data,Dictionary,createNumberDict(),Creates a new instance of p5.NumberDict using the key-value pair or object you provide.,https://p5js.org/reference/p5/createNumberDict/
+Data,Dictionary,createStringDict(),Creates a new instance of p5.StringDict using the key-value pair or the object you provide.,https://p5js.org/reference/p5/createStringDict/
+Data,Dictionary,p5.StringDict,A simple Dictionary class for Strings.,https://p5js.org/reference/p5/p5.StringDict/
+Data,LocalStorage,clearStorage(),Removes all items in the web browser's local storage.,https://p5js.org/reference/p5/clearStorage/
+Data,LocalStorage,getItem(),Returns a value in the web browser's local storage.,https://p5js.org/reference/p5/getItem/
+Data,LocalStorage,removeItem(),Removes an item from the web browser's local storage.,https://p5js.org/reference/p5/removeItem/
+Data,LocalStorage,storeItem(),Stores a value in the web browser's local storage.,https://p5js.org/reference/p5/storeItem/
+Data,String Functions,join(),Combines an array of strings into one string.,https://p5js.org/reference/p5/join/
+Data,String Functions,match(),Applies a regular expression to a string and returns an array with the first match.,https://p5js.org/reference/p5/match/
+Data,String Functions,matchAll(),Applies a regular expression to a string and returns an array of matches.,https://p5js.org/reference/p5/matchAll/
+Data,String Functions,nf(),Converts a Number into a String with a given number of digits.,https://p5js.org/reference/p5/nf/
+Data,String Functions,nfc(),"Converts a Number into a String with commas to mark units of 1,000.",https://p5js.org/reference/p5/nfc/
+Data,String Functions,nfp(),Converts a Number into a String with a plus or minus sign.,https://p5js.org/reference/p5/nfp/
+Data,String Functions,nfs(),Converts a positive Number into a String with an extra space in front.,https://p5js.org/reference/p5/nfs/
+Data,String Functions,split(),Splits a String into pieces and returns an array containing the pieces.,https://p5js.org/reference/p5/split/
+Data,String Functions,splitTokens(),Splits a String into pieces and returns an array containing the pieces.,https://p5js.org/reference/p5/splitTokens/
+Data,String Functions,trim(),Removes whitespace from the start and end of a String without changing the middle.,https://p5js.org/reference/p5/trim/
+Data,p5.NumberDict,add(),Add the given number to the value currently stored at the given key,https://p5js.org/reference/p5.NumberDict/add/
+Data,p5.NumberDict,div(),Divide the given number with the value currently stored at the given key,https://p5js.org/reference/p5.NumberDict/div/
+Data,p5.NumberDict,maxKey(),Return the highest key currently used in the Dictionary.,https://p5js.org/reference/p5.NumberDict/maxKey/
+Data,p5.NumberDict,maxValue(),Return the highest number currently stored in the Dictionary.,https://p5js.org/reference/p5.NumberDict/maxValue/
+Data,p5.NumberDict,minKey(),Return the lowest key currently used in the Dictionary.,https://p5js.org/reference/p5.NumberDict/minKey/
+Data,p5.NumberDict,minValue(),Return the lowest number currently stored in the Dictionary.,https://p5js.org/reference/p5.NumberDict/minValue/
+Data,p5.NumberDict,mult(),Multiply the given number with the value currently stored at the given key,https://p5js.org/reference/p5.NumberDict/mult/
+Data,p5.NumberDict,sub(),Subtract the given number from the value currently stored at the given key,https://p5js.org/reference/p5.NumberDict/sub/
+Data,p5.TypedDict,clear(),Removes all previously stored key-value pairs from the Dictionary.,https://p5js.org/reference/p5.TypedDict/clear/
+Data,p5.TypedDict,create(),Creates a new key-value pair in the Dictionary.,https://p5js.org/reference/p5.TypedDict/create/
+Data,p5.TypedDict,get(),Returns the value stored at the given key.,https://p5js.org/reference/p5.TypedDict/get/
+Data,p5.TypedDict,hasKey(),"Returns true if the given key exists in the Dictionary, otherwise returns false.",https://p5js.org/reference/p5.TypedDict/hasKey/
+Data,p5.TypedDict,print(),Logs the set of items currently stored in the Dictionary to the console.,https://p5js.org/reference/p5.TypedDict/print/
+Data,p5.TypedDict,remove(),Removes the key-value pair stored at the given key from the Dictionary.,https://p5js.org/reference/p5.TypedDict/remove/
+Data,p5.TypedDict,saveJSON(),Converts the Dictionary into a JSON file for local download.,https://p5js.org/reference/p5.TypedDict/saveJSON/
+Data,p5.TypedDict,saveTable(),Converts the Dictionary into a CSV file for local download.,https://p5js.org/reference/p5.TypedDict/saveTable/
+Data,p5.TypedDict,set(),Updates the value associated with the given key in case it already exists in the Dictionary,https://p5js.org/reference/p5.TypedDict/set/
+Data,p5.TypedDict,size(),Returns the number of key-value pairs currently stored in the Dictionary.,https://p5js.org/reference/p5.TypedDict/size/
+Structure,,disableFriendlyErrors,Turns off the parts of the Friendly Error System (FES) that impact performance.,https://p5js.org/reference/p5/disableFriendlyErrors/
+Structure,,draw(),A function that's called repeatedly while the sketch runs.,https://p5js.org/reference/p5/draw/
+Structure,,isLooping(),Returns true if the draw loop is running and false if not.,https://p5js.org/reference/p5/isLooping/
+Structure,,loop(),Resumes the draw loop after noLoop() has been called.,https://p5js.org/reference/p5/loop/
+Structure,,noLoop(),Stops the code in draw() from running repeatedly.,https://p5js.org/reference/p5/noLoop/
+Structure,,pop(),Ends a drawing group that contains its own styles and transformations.,https://p5js.org/reference/p5/pop/
+Structure,,preload(),A function that's called once to load assets before the sketch runs.,https://p5js.org/reference/p5/preload/
+Structure,,push(),Begins a drawing group that contains its own styles and transformations.,https://p5js.org/reference/p5/push/
+Structure,,redraw(),Runs the code in draw() once.,https://p5js.org/reference/p5/redraw/
+Structure,,remove(),Removes the sketch from the web page.,https://p5js.org/reference/p5/remove/
+Structure,,setup(),A function that's called once when the sketch begins running.,https://p5js.org/reference/p5/setup/
+Constants,,AUTO,"AUTO allows us to automatically set the width or height of an element (but not both), based on the current height and width of the element",https://p5js.org/reference/p5/AUTO/
+Constants,,DEGREES,A String constant that's used to set the angleMode().,https://p5js.org/reference/p5/DEGREES/
+Constants,,HALF\_PI,A Number constant that's approximately 1.5708.,https://p5js.org/reference/p5/HALF_PI/
+Constants,,HSB,"HSB (hue, saturation, brightness) is a type of color model",https://p5js.org/reference/p5/HSB/
+Constants,,P2D,"The default, two-dimensional renderer.",https://p5js.org/reference/p5/P2D/
+Constants,,PI,A Number constant that's approximately 3.1416.,https://p5js.org/reference/p5/PI/
+Constants,,QUARTER\_PI,A Number constant that's approximately 0.7854.,https://p5js.org/reference/p5/QUARTER_PI/
+Constants,,RADIANS,A String constant that's used to set the angleMode().,https://p5js.org/reference/p5/RADIANS/
+Constants,,TAU,A Number constant that's approximately 6.2382.,https://p5js.org/reference/p5/TAU/
+Constants,,TWO\_PI,A Number constant that's approximately 6.2382.,https://p5js.org/reference/p5/TWO_PI/
+Constants,,VERSION,Version of this p5.js.,https://p5js.org/reference/p5/VERSION/
+Constants,,WEBGL,"One of the two render modes in p5.js, used for computationally intensive tasks like 3D rendering and shaders.",https://p5js.org/reference/p5/WEBGL/
+Constants,,WEBGL2,"One of the two possible values of a WebGL canvas (either WEBGL or WEBGL2), which can be used to determine what capabilities the rendering environment has.",https://p5js.org/reference/p5/WEBGL2/
+Foundation,,class,A template for creating objects of a particular type.,https://p5js.org/reference/p5/class/
+Foundation,,console,Prints a message to the web browser's console.,https://p5js.org/reference/p5/console/
+Foundation,,for,A way to repeat a block of code when the number of iterations is known.,https://p5js.org/reference/p5/for/
+Foundation,,function,A named group of statements.,https://p5js.org/reference/p5/function/
+Foundation,,if,A way to choose whether to run a block of code.,https://p5js.org/reference/p5/if/
+Foundation,,let,Declares a new variable.,https://p5js.org/reference/p5/let/
+Foundation,,Array,A list that keeps several pieces of data in order.,https://p5js.org/reference/p5/Array/
+Foundation,,Boolean,A value that's either true or false.,https://p5js.org/reference/p5/Boolean/
+Foundation,,Number,"A number that can be positive, negative, or zero.",https://p5js.org/reference/p5/Number/
+Foundation,,Object,A container for data that's stored as key-value pairs.,https://p5js.org/reference/p5/Object/
+Foundation,,String,A sequence of text characters.,https://p5js.org/reference/p5/String/
+Foundation,,while,A way to repeat a block of code.,https://p5js.org/reference/p5/while/
