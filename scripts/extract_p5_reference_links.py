@@ -13,7 +13,7 @@ import sys
 from pathlib import Path
 
 INPUT_PATH = Path(os.getenv("INPUT_PATH", "P5/Reference.md"))
-OUTPUT_CSV = Path(os.getenv("OUTPUT_CSV", "P5/reference_links.csv"))
+OUTPUT_CSV = Path(os.getenv("OUTPUT_CSV", "P5/reference.csv"))
 
 LINK_LINE_RE = re.compile(r"^\s*\[(.+?)\]\((https?://[^)]+)\)\s*$")
 HEADING_RE = re.compile(r"^\s*(#{2,3})\s+(.*?)\s*$")
