@@ -1,0 +1,434 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head>
+<link rel="stylesheet" type="text/css" href="css.css" />
+
+
+<title>The On-Line Encyclopedia of Bongard Problems</title>
+
+</head>
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="100%" align="right">
+        <font size=-1>
+
+
+            <a href="/login.php?r=643145215&redirect=ambiguity.php?">login</a></font>
+<tr height=5><td>
+</table>
+
+
+
+<center>
+<form name=f action="/search.php" method="GET">
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td>
+<input maxLength=1024 size=55 name=q value="" title="query">
+<input type=submit value="Search">
+<td width=10><td>
+<font size=-2><a href="/hints.php">Hints</a></font>
+<tr><td colspan=2>
+<font size=-1>
+(Greetings from <a href="/index.php">The On-Line Encyclopedia of Bongard Problems</a>!)
+</font>
+</table>
+</form>
+</center>
+
+
+<div align="center">
+<center>
+<h2>Ambiguity in Bongard Problems</h2>
+
+<center>
+<div style="width:750;text-align: left;">
+
+
+<center>
+<span style = "color: red;">This page is a work in progress.</span>
+<br>
+<br>
+<div style="width:700px;border-style: solid; border-width:1px;border-color:black;">
+<center>
+<div style="width:600px;text-align: left;">
+<br>
+<br>
+A <b>Bongard's Dozen</b> includes
+<ul>
+    <li>
+        a Bongard Problem and
+    <li>
+        an un-sorted box.
+</ul>
+<center>
+<br>
+<img border="0" src="files/dozen.png" alt="A Bongard's Dozen"></a>
+<br>
+<br>
+Fig. 1: <i>Eleven boxes in this Bongard's Dozen.</i>
+</center>
+<br>
+<br>
+In a typical Bongard's Dozen, the extra box will fit best either on the left or on the right side. You might ask someone to sort the extra box to test whether they know the answer to the Bongard Problem (without requiring them to talk about the solution in language).
+<br>
+<br>
+<br>
+</div>
+</center>
+</div>
+</center>
+
+<br>
+<br>
+<br>
+
+<p>There are two ways a Bongard Problem can clearly sort a specific box.</p>
+<center>
+<div style="display:inline-block">
+Fits on the left.
+<br>
+<img border="0" src="files/dozen.png" alt="Black circles vs. white triangles; unsorted black circle.">
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="display:inline-block;">
+Fits on the right.
+<br>
+<img border="0" src="files/odzen.png" alt="Black circles vs. white triangles; unsorted white triangle.">
+</div>
+</center>
+
+<p>When neither of these is clear, the situation is ambiguous.</p>
+<p>There are many reasons somebody might have trouble choosing which side of a Bongard Problem a box fits on. A common reason is that the person sorting the box doesn't know the answer to the Bongard Problem. But let us focus on the other ways a situation can be ambiguous.</p>
+
+<h3>Types of Ambiguity</h3>
+(Keep in mind there are no clear-cut boundaries between these "types of ambiguity" in this made-up list.)
+<h4>Ambiguities in Multiple Solutions</h4>
+<p>It is common for a Bongard Problem to admit more than one solution.</p>
+<center>
+<img border="0" src="files/simple.png" alt="A Bongard Problem"></a>
+</center>
+<p>For example, the above Bongard Problem is "squares vs. triangles". But its solution could also be "squares vs. not squares" or "not triangles vs. triangles". If the two sides of a BP are not just the negations of one another, there will be multiple ways to define the threshold between the sides.
+<br>
+Ambiguity can result from an object not fitting cleanly into just one of the two collections.
+
+<ul>
+<li><b>Fits on <a href="/search.php?q=keyword%3Aneither">neither</a> side.</b>
+<br>
+<i>Feels like &ldquo;PUSH/PUSH&rdquo; (&ldquo;pushed away&rdquo; by both collections)</i>
+<br>
+<img src="files/images/image69.png"><img src="files/images/image103.png">
+<br>
+<p>For example, above, the wiggly black triangle is not a polygon outline, so it should go right, but it is also not a star, so it should go left.</p>
+<br>
+</li>
+<li><b>Fits in overlap of <a href="/search.php?q=keyword%3Aboth">both</a> sides.</b>
+<br>
+<i>Feels like &ldquo;PULL/PULL&rdquo; (&ldquo;pulled in&rdquo; by both collections)</i>
+<br>
+<img src="files/images/image108.png"><img src="files/images/image65.png"><img src="files/images/image39.png">
+<br>
+<p>For example, above, the square is a rhombus, so it should go left, but it is also a rectangle, so it should go right.
+    <br>
+    <br>
+    Why does the solution "rhombuses vs. rectangles" seem more natural than "not rectangles vs. not rhombuses"? One point is that "being a rectangle" and "being a rhombus" are both relatively "narrow" criteria as opposed to "not being a rectangle" and "not being a rhombus".
+    <br>
+    <br>
+    Let's say a "narrow" pattern is something a person can recognize by seeing enough examples, without needing counter-examples.
+    <br>
+    <span style="font-size: 0.85em;">"Is a circle" is narrow (if you see many circles together, you will think "they are circles") while "is not a circle" is not (if you see many non-circular shapes together, you will think "they are shapes").</span>  
+    <br>
+    <br>
+    When a pattern is not narrow and its negation is narrow, call it "wide".
+    <br>
+    <span style="font-size: 0.85em;">"Is not a circle" is wide.
+    </span>  
+<br>
+A Bongard Problem can only communicate a wide pattern by showing the opposite narrow pattern on the other side.
+</p></li>
+<li><b>Fits on each side for independent reasons.</b>
+<br>
+<i>Usually feels like &ldquo;PUSH/PUSH&rdquo;</i>
+<br>
+<img src="files/images/image67.png"><img src="files/images/image80.png"><img src="files/images/image72.png"><img src="files/glug.png"><img src="files/images/image102.png">
+<br>
+<br>
+One side displays two distinct, narrow patterns, and the extra box fits one but not the other.<br>
+<br>
+</li>
+<ul>
+    <li>Special case: one of these patterns has a wide (not narrow) negation shown on the other side.</li>
+<br>
+<ul>
+<li>Fits that wide pattern.<br>
+<i>Feels like &ldquo;PUSH/PUSH&rdquo; (feels like the non-special cases above)</i>
+<br><img src="files/images/image16.png"><img src="files/images/image63.png"><br></li>
+<br>
+
+<li>Fits that narrow pattern.<br>
+    <i>Feels like &ldquo;PUSH/PULL&rdquo; ("pulled" to wide side because we don&rsquo;t register the wide property as being a requirement to fit on that side)</i>
+    <br><img src="files/tf.png"><img src="files/images/image97.png"><br></li>
+    <br>
+    <ul>
+<li>The other pattern is also narrow on that side, and it too has a wide negation shown on the other side.
+<br>
+<img src="files/images/image41.png">
+<br>
+<font size=1>(If this is just understood as &ldquo;grey diamonds vs. not that&rdquo; instead of &ldquo;grey and diamond vs. neither&rdquo; then the ambiguity is instead &ldquo;almost fits on the positive side&rdquo; described below.)</font>
+</li>
+</ul>
+</ul>
+</ul>
+<br>
+<li><b>Doesn&rsquo;t quite fit on either side, but is closer to one than the other.</b>
+<br>
+<i>Feels like &ldquo;PUSH (less)/PUSH&rdquo;</i>
+<br>
+<img src="files/images/image18.png">
+<br>
+<br>
+Here there is an intuitive choice for where to sort the box, but it clearly doesn't quite fit.
+<br>
+You could say this introduces a spectrum of <i>closeness of fitting left versus right</i>.
+</li>
+</ul>
+<br>
+A Bongard Problem with just one solution idea (as opposed to two independent patterns) can still leave room for ambiguity.
+<br>
+<h4>Ambiguities on a Spectrum</h4>
+<ul>
+<li><b>In between sides on spectrum.</b><br><img src="files/images/image96.png"><img src="files/images/image26.png">&nbsp;&nbsp;&nbsp;&nbsp;<img src="files/silly.gif"> <font size=1>(the extra box is itself)</font>
+<br>
+<br>
+Depending on the choice of a more specific threshold between the sides, the object could fit on either side.
+</li>
+<br>
+<ul>
+<li>New object introduces spectrum not necessarily seen without it.
+<br>
+<img src="files/images/image107.png"><img src="files/images/image54.png">
+<br>
+<br>
+This is clearly ambiguity whereas fitting between sides in the established spectrum is less obviously ambiguous.
+<br>
+(This is arguably the same as &ldquo;fits on neither side.&rdquo;)</li>
+<br>
+<ul>
+<li>Is both sides spliced together.<br><img src="files/images/image73.png"><img src="files/images/image79.png"><img src="files/images/image47.png">&nbsp;
+<br>
+<font size=1>(This last example is additionally plain spectrum-ambiguous if you perceive the rule as &ldquo;number of concavities&rdquo; instead of &ldquo;wiggly outline&rdquo;)</font>
+</li>
+</ul>
+<br>
+<li>"Spectrum Neither"
+<br>
+Box falls in between sides on spectrum, but obviously fits with neither side.
+<br>
+Here, the two sides of the BP may be most easily interpreted as conceptual opposites, without thinking of a spectrum; there is a gap in between the sides on the spectrum. The extra box fits in that gap.</li>
+<br>
+<ul>
+<li>On precise turning-point threshold.<br><img src="files/images/image55.png"></li>
+</ul>
+</ul>
+<br>
+<li><b>Past one end of spectrum</b>
+<br>
+<img src="files/images/image75.png">
+</li>
+<br>
+Here there is an intuitive choice for where to sort the box, but the object doesn't quite fit. Similar to &ldquo;doesn’t quite fit on either side, but is closer to one than the other.&rdquo;
+<br>
+<ul>
+<br>
+<li>Introduces new spectrum (as above)<br><img src="files/images/image66.png"><img src="files/images/image43.png"></li>
+</ul>
+</ul>
+<br>
+<br>
+<h4>Ambiguities Within a Solution Idea</h4>
+<ul>
+<li><b>Preference of handling border case.</b>
+<br>
+<img src="files/images/image21.png"><img height = "110px" src="files/images/image50.png">
+<br>
+<br>
+The example points out there are cases which are not handled by the Bongard Problem. There may be various slightly different alternative versions of this Bongard Problem that handle border cases in various ways.
+</li>
+<br>
+<ul>
+<li>Interpretation of the solution depends on opinion/perspective.<br><br><div style="display:inline-block; border-color:black; border-style:solid; border-width:1px; width:200px; padding:50px;vertical-align: middle;"><center>Correct vs. incorrect spellings<br><br>&ldquo;Colour&rdquo;</center></div>
+<br>
+<br>
+This is a sign of an "<a href = "invalid.php">invalid</a>" culture-based Bongard Problem.
+</li>
+</ul>
+<br>
+<li><b>Unclear box.</b>
+<ul>
+<li>
+Extra box can't be understood in relation to problem (and it's not obvious there isn't an interpretation yet to be found that makes sense).
+<br>
+<img height ="200px" src="files/by.png">
+</li>
+<br>
+<li>
+Answer depends on interpretation of extra box
+<br>
+<div style="display:inline-block; border-color:black; border-style:solid; border-width:1px; width:200px; padding:50px;vertical-align: top;"><center>Infinite vs. 1 in number<br><br>Sides of a circle</center></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="display:inline-block; border-color:black; border-style:solid; border-width:1px; width:200px; padding:50px;vertical-align: top;"><center>Infinite vs. 0 in number<br><br>Corners of a circle</center></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="files/images/image44.png" height = 300px>
+<br><font size=1>(In the last example we have an un-handled border case in the mini-BP.)</font>
+<br>
+<br>
+This is very similar to "preference of handling border case". Here we are just drawing a distinction between unclear border cases that seem to be an oversight of the Bongard Problem and ambiguities that seem to be the fault of the strange extra box.
+</li>
+</ul>
+<br>
+<li><b>Self-referential paradox.</b> (Fits on a side &rArr; doesn&rsquo;t fit on that side)
+<br>
+<img height = 500px; src="files/antiself.png">
+<br>
+<font size=1>(the extra box is itself)</font></li>
+<br>
+<li><b>Self-referential tautology.</b> (Fits on one side &rArr; doesn&rsquo;t fit on the other)
+<br>
+<img height = 500px; src="files/self.png">
+<br>
+<font size=1>(the extra box is itself)</font></li>
+</ul>
+
+<h4>Other Ambiguities in One Solution</h4>
+
+<ul>
+<li><b>Almost fits on the positive side</b> where the pattern is "narrow" as described above and its negation is not.<br><img src="files/images/image109.png">
+<br>
+<br>
+As above, you could say this implicitly introduces a spectrum of "closeness of fitting," but it's unclear what the threshold for fitting should be.
+</li>
+<br>
+<li><b>Doesn&rsquo;t fit in with the "world"</b> of things shown.
+<br><img src="files/images/image61.png"></li>
+<br>
+(Calling this &ldquo;ambiguity&rdquo; is a stretch--the new object just expands the BP to a wider range.)</li>
+</ul>
+
+
+<h4>Miscellaneous "Ambiguities"</h4>
+<ul>
+<li><b>No clear solution to problem.</b>
+<br>
+<img src="files/images/image15.png"></li>
+<br>
+<ul>
+<li><b>Clear automatic sorting</b> despite unknown solution. (Not ambiguous.)<br><img src="files/images/image100.png"></li>
+</ul>
+<br>
+<li><b>Clear no solution to problem.</b> (Invalid problem.)<br><img src="files/no.png"><img src="files/images/image31.png"><img src="files/images/image32.png"></li>
+<br>
+<li><b>There is a clear &ldquo;sorting&rdquo; but in an invalid way.</b><br><img src="files/images/image53.png"></li>
+<br>
+<li><b>Some box in problem can&rsquo;t be understood</b> in context but the solution may be understandable without it. 
+<br>
+<img height ="250px" src="files/images/image70.png"></li>
+<br>
+<li><b>Problem seems to have error.</b></li>
+<br>
+<ul>
+<li>Error invalidates solution, i.e. the error changes the box so it should really be on the other side. <br><img height = 300px src="files/images/image8.png"></li>
+<br>
+<li>Error makes solution unclear, i.e. the error changes the box so it isn't clear where it should fit anymore.
+<br>
+<img height = 300px src="files/images/image45.png"></li>
+<br>
+This is like &ldquo;some box in problem can&rsquo;t be understood&rdquo;<br>
+</ul>
+<br>
+<li><b>Extra box seems to have error.</b> (Requires much detail in box.)</li>
+<br>
+<ul>
+<li>Error flips answer<br><img height = 300px src="files/images/image20.png"></li>
+<br>
+<li>Error makes the answer ambiguous<br><img height = 300px src="files/images/image58.png"></li>
+<br>
+This usually creates &ldquo;unclear box&rdquo; ambiguity or &ldquo;fits on neither side.&rdquo;<br>
+</ul>
+<br>
+
+<li>
+    <b>&ldquo;GoodBadBothNeither.&rdquo;&nbsp;</b>
+    Answer is &ldquo;something vs. its conceptual opposite&rdquo; and box fits with both.
+    <br>
+    <i>Feels like &ldquo;PUSHPULL/PUSHPULL&rdquo;</i>
+    <br>
+    <div style="display:inline-block; border-color:black; border-style:solid; border-width:1px; width:200px; padding:50px;vertical-align: top;"><center>People who are good vs. people who are bad<br><br>Someone who has done a large bad thing and a large good thing</center></div>&nbsp;&nbsp;&nbsp;<!-- <img height = 300px style="vertical-align: top;" src="files/images/image60.png"> --><img height = 200px style="vertical-align: top;" src="files/images/image25.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height = 200px style="vertical-align: top;" src="files/images/image46.png">
+    <br>
+    <br>Similar to &ldquo;fits on both sides&rdquo;, but the two properties are conceptually opposites so it also intuitively feels like the box should fit on neither side.
+</li>
+    <br>
+    <li><b>Different solution interpretations give different results.</b>
+        <br>
+        Above were listed some types of ambiguities involving multiple solutions. Here there are multiple solutions, but people might be inclined to choose just one of them as the correct solution, and they might disagree on which one is most natural. This usually feels similar to "preference of handling border case" ambiguity. The "preference of handling border case" ambiguity is about a border case of one idea for a solution, whereas this is about multiple totally different ideas for the solution that handle a box differently. In some cases it's easy to be satisfied with a solution that handles the box and not notice there's another way of interpreting the Problem.
+    </li>
+    <br>
+<ul>
+    <li>Type of ambiguity depends on understanding of solution. (There are many interesting variations of this based on what ambiguities are involved.)
+        <br><img src="files/images/image47.png">
+        <br><font size=1>(Plain spectrum ambiguity or spliced version of both sides depending on whether you interpret the solution as &ldquo;wiggly outline&rdquo; or &ldquo;number of concavities&rdquo;.)</font>
+        <br><br><img src="files/images/image95.png">
+        <br><font size=1>(If you interpret as rhombuses vs. rectangles it&rsquo;s neither. If you interpret as two angle measures &amp; vs. one angle measure &amp; two side measures it&rsquo;s different sides for unrelated reasons)</font></li>
+    <br>
+    <li>Whether there is ambiguity depends on understanding of solution.
+        <br><img height = 300px src="files/images/image60.png">
+        <br><font size=1>(<i>GoodBadBothNeither</i>; &ldquo;requires flip&rdquo;: sorted right; &ldquo;flipped vs. non-flipped&rdquo;: fits in overlap; &ldquo;is the flipped version&rdquo;: sorted left)</font><br>
+        Any <i>GoodBadBothNeither</i> situation (see above) will admit multiple interpretations of the solution like this.
+        <br>
+    </li>
+    <br>
+    <li>Different understandings of solution sort object on different sides.
+<br>Above example also exhibits this.</li>
+</ul>
+<br>
+<li><b>Multiple kinds of ambiguity.</b> (There are many variations.)
+<br><img src="files/images/image35.png">
+<br><font size=1>(Different sides for unrelated reasons, only almost fits on left, only almost fits on right with new spectrum.)</font>
+<br><br><img src="files/images/image94.png">
+<br><font size=1>(Doesn&rsquo;t fit in with world, splice.)</font><br>
+<br><img src="files/images/image24.png">
+<br><font size=1>(Spectrum, different sides for unrelated reasons one/four or less/more vs. odd/even, closer to one side than other on spectrum, arguably introduces new spectrum.)</font></li>
+</ul>
+</ul>
+
+
+<br>
+Lastly, here are some real thinkers.<br><img src="files/images/image99.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="files/images/image27.png"></li>
+</ul>
+</div>
+</center>
+
+
+<p>
+
+<center>
+
+<a href="/welcome.php">Welcome</a> |
+<a href="/solve.php">Solve</a> |
+<a href="/search.php?q=all&meta=no&wordless=wordless">Browse</a> |
+<a href="/index.php">Lookup</a> |
+<a href="/search.php?q=all:new&meta=no&wordless=wordless">Recent</a> |
+<a href="/links.php">Links</a> |
+<a href="/register.php">Register</a> | 
+<a href="/contact.php">Contact</a>
+
+<br>
+
+<a href="/new.php">Contribute</a> |
+<a href="/keywords.php">Keywords</a> |
+<a href="/concepts.php">Concepts</a> |
+<a href="/world.php">Worlds</a> |
+<a href="/ambiguity.php">Ambiguities</a> |
+<a href="/transformations.php">Transformations</a> |
+<a href="/invalid.php">Invalid Problems</a> |
+<a href="/style.php">Style Guide</a> |
+<a href="/goals.php">Goals</a> |
+<a href="/glossary.php">Glossary</a>
+</center>
+
+</p></body></html>

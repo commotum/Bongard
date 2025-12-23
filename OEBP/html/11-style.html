@@ -1,0 +1,382 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head>
+<link rel="stylesheet" type="text/css" href="css.css" />
+
+
+<title>The On-Line Encyclopedia of Bongard Problems</title>
+
+</head>
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td width="100%" align="right">
+        <font size=-1>
+
+
+            <a href="/login.php?r=139253744&redirect=style.php?">login</a></font>
+<tr height=5><td>
+</table>
+
+
+
+<center>
+<form name=f action="/search.php" method="GET">
+<table cellspacing=0 cellpadding=0 border=0>
+<tr><td>
+<input maxLength=1024 size=55 name=q value="" title="query">
+<input type=submit value="Search">
+<td width=10><td>
+<font size=-2><a href="/hints.php">Hints</a></font>
+<tr><td colspan=2>
+<font size=-1>
+(Greetings from <a href="/index.php">The On-Line Encyclopedia of Bongard Problems</a>!)
+</font>
+</table>
+</form>
+</center>
+
+<div align="center">
+<h2>OEBP Style Guide</h2>
+</div>
+
+
+<center>
+<div style="width:700;text-align: left;">
+
+Besides what is <a href="https://oebp.org/invalid.php">not a Bongard Problem</a> and what is illegal, anything goes on the OEBP. (And even some <a href="/search.php?q=keyword%3Ainvalid">interesting non Bongard Problems</a> have pages.) However, we would prefer to keep our database free from too many arbitrarily specific Bongard Problems or examples that miscommunicate solutions.
+<br>
+<br>
+Here are some guidelines for new creators. Ignore any of them. (They are not rules.)
+<ul>
+<li>
+Do not include a black border around submitted square examples. The black border is automatically added around all displayed images.
+</li>
+<li>
+The 100x100 pixel size of boxes as in the <a href="/templates/template.png">template</a> is <i>not</i> a required format for examples. Still, it is a good rule-of-thumb limit on the amount of convoluted information to be stuffing into your examples, and we do prefer to store smaller files.
+</li>
+<li>
+In Bongard Problems about black-and-white images, the OEBP prefers image files featuring only pure black and pure white (<a href="/EX2">like this</a>), without anti-aliasing (<a href="/EX2780">like this</a>).
+</li>
+<li>
+In Bongard Problems with harder solutions, we appreciate when you include examples that <a href="/search.php?q=keyword%3Ahelp">hint</a> at the solution. (An OEBP page is meant to be an encyclopedia entry for a solution idea. You might be reluctant to upload hinting examples because you want to keep your puzzle hard. But if you include both hard and easy examples in your Bongard Problem submission, that allows us to make the hard version and an easy version too.)
+</li>
+<li>
+Do not include examples that only <i>arguably</i> fit on one side of your Bongard Problem, unless your Bongard Problem by nature <a href="/search.php?q=keyword%3Acollective">sorts all examples vaguely</a> or <a href="/search.php?q=keyword%3Asubjective">is based on something subjective</a>. If an argument can be made that some example fits on a particular side, but it hinges on a more specific interpretation of the solution, prefer to omit. To include the <a href = "/BP509">border cases</a> is to make a Bongard Problem with a more precise, but also more arbitrary, solution. 
+</li>
+<li>
+Choose a <a href="/world.php">class of objects</a> to put in your Bongard Problem that will most clearly communicate your idea.
+<br>
+<ul>
+<li>
+Take for example M. M. Bongard's "<a href="/BP3">hollow outline vs. solid shape</a>". All images in this Bongard Problem show a single shape, either hollow or filled in black.
+<br>
+It would have been overly general (irrelevant to the idea) to include images featuring multiple shapes, shapes with varying outline thickness, or shapes with small holes in them. (These would make fine alternative versions of this Bongard Problem, perhaps to increase its difficulty, but if we are only to keep one version in our database we should prefer the simplest.)
+<br>
+It would have flatout complicated the idea to include strange irrelevant border cases like pictures of lines, points, nested shapes, and self-intersecting curves. (A creator can get carried away by exciting weird examples that cloud the main idea.)
+<br>
+And on the other hand, it would have been <a href = "/BP865">arbitrarily specific</a> if all examples were octagons.
+</li>
+<li>
+There is a balance to be struck between showing varied examples (to communicate the full range of the Bongard Problem) and showing simple examples (to avoid obscuring the solution with irrelevancies). Especially in Bongard Problems that allow for examples <a href= "/search.php?q=keyword%3Alateralexample">fitting the solution creatively</a>, aim to curate simple examples that illustrate different ways things can fit on either side.
+</li>
+<li>
+In "[object has property] <a href ="/search.php?q=keyword%3Anotso">vs. not so</a>" Bongard Problems, it is not necessary to include the kitchen sink on the negative side. For example, in a Bongard Problem "is triangle vs. not so", we would typically not include a photograph of a book as an example of a non-triangle. In this case a good choice of examples would be polygons.
+</li>
+<li>
+Find existing Bongard Problems on the OEBP with similar examples to yours. Notice which styles seem most elegant to you, and whether there is an established conventional way to draw examples for these Bongard Problems. Although we certainly welcome new styles that contrast established conventions, there is also something to be said for having consistency in style between multiple Bongard Problems about the same thing. Feel encouraged to re-use examples from other Problems by entering their <a href="/EX1">EX___</a> numbers into your Bongard Problem.
+</li>
+<li>
+For Bongard Problems in which each example is a picture of a collection of multiple objects, think about what will visually indicate something is "one object". It typically suffices to just draw the different objects next to one another on a white background.
+<ul>
+<li>
+A simple, elegant, and easy-to-read rule is that one "object" is one connected black shape. (See <a href ="/BP343">BP343</a>.)
+</li>
+<li>
+Another rule with a clear definition is that one "object" is everything within some outermost black boundary. (See <a href ="/BP977">BP977</a>.) We use this rule when we interpret what the boxes are in Bongard Problems.
+</li>
+<li>
+Another commonly-used rule is that one "object" is a bunch of stuff clustered together, such that there is a clear gap of space between different clusters. (See <a href ="/BP380">BP380</a>.)
+</li>
+<li>
+Examples of less frequently-used ideas: objects that implicitly continue outside of the bounding box, objects that are nested within one another but still considered separate, holes in objects understood as objects themselves. Experimental ways of showing objects are welcome, but when your goal is to communicate another idea rather than to experiment, use the simplest appropriate rule.
+</li>
+</ul>
+</ul>
+</li>
+<li>
+Try to find unintended solutions for the Bongard Problem you made. Better yet, <b>have someone else solve your Bongard Problem</b>. If you find unintended solutions, adjust your examples or add more of them to eliminate unwanted solutions, and, if the unintended solution was interesting, consider submitting a page for it too with examples tailored to that idea instead.
+<ul>
+For example, <a href="/BP344">BP344</a> is about shapes that can tile themselves with smaller copies of themselves vs. shapes that cannot. Here is an early draft of this Bongard Problem.
+<center>
+<img border="0" height="100" src="/files/gum.png" alt="A Bongard Problem">
+<br>
+<img border="0" height="100" src="/files/yet.png" alt="Illustration of tiles tiling themselves">
+</center>
+But someone pointed out another solution of similar simplicity: "shape can tile with itself to make a parallelogram vs. not so."
+<br>
+An example was added on the right to eliminate that solution.
+<center>
+<img border="0" height="50" src="/files/puzzlehalf.png" alt="A tile that cannot tile itself but also cannot tile a parallelogram.">
+</center>
+</ul>
+</li>
+<li>
+<b>Check that all your examples really fit where you sorted them.</b> This goes without saying, but every frequent contributor makes errors, especially when designing Bongard Problems in which <a href="/search.php?q=keyword%3Ahardsort">sorting examples is hard</a>.
+<ul>
+<li>
+For mathematical Bongard Problems in which sorting examples is hard, try to come up with a proof that each example fits on the side you think it does.
+</li>
+</ul>
+</li>
+</li>
+<li>
+Lastly, here is the all-purpose test for checking whether your Problem idea is actually a Bongard Problem: would a clever stranger who saw your Problem, if given more unsorted relevant examples, be able to sort them? The Problems on the <a href="/invalid.php">invalid Problems</a> page fail this test for various reasons.
+</li>
+</ul>
+<br>
+
+You don't have to be an especially talented visual artist to make elegant Bongard Problems. Still, beautiful illustrations make the database a happy place to be; if you have any desire to put creative effort into your Bongard Problems, feel encouraged. To communicate solutions clearly, it is usually best to keep graphic design crisp and simple. Street signs are to Bongard Problem designers as Michelangelo's works are to painters.
+
+<br>
+<br>
+
+
+<center><h2>Templates</h2></center>
+
+Here are some templates for <a href="/search.php?q=keyword%3Aminiproblems">meta</a> Bongard Problems, which are Bongard Problems that have Bongard Problems as examples. The same guidelines for Bongard Problems above apply for Bongard Problems included as examples within Bongard Problems.
+<center>
+<br>
+<table>
+<tr>
+<td width = 350>
+<center>
+<a href="/templates/metatemplate0.png">
+<img border="0" height="200" src="/templates/metatemplate0.png" alt="Template">
+</a>
+</center>
+</td>
+<td width = 350>
+<center>
+<a href="/templates/metatemplate.png">
+<img border="0" height="200" src="/templates/metatemplate.png" alt="Template">
+</a>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<i>Draw meta-examples in meta-boxes.</i>
+</center>
+</td>
+<td>
+<center>
+<i>Draw more meta-examples in meta-boxes.</i>
+</center>
+</td>
+</tr>
+<tr style = "height:3em">
+</tr>
+<tr>
+<td width = 350>
+<center>
+<a href="/templates/metatemplate6.png">
+<img border="0" height="200" src="/templates/metatemplate6.png" alt="Template">
+</a>
+</center>
+</td>
+<td width = 350>
+<center>
+<a href="/templates/metatemplate2.png">
+<img border="0" height="200" src="/templates/metatemplate2.png" alt="Template">
+</a>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<i>Draw more meta-examples in meta-boxes.</i>
+</center>
+</td>
+<td>
+<center>
+<i>Draw even more meta-examples in meta-boxes.</i>
+</center>
+</td>
+</tr>
+<tr style = "height:3em">
+</tr>
+<tr>
+<td colspan = 2>
+<center>
+<a href="/templates/metatemplate1.png">
+<img border="0" height="200" src="/templates/metatemplate1.png" alt="Template">
+</a>
+</center>
+</td>
+</tr>
+<tr>
+<td colspan = 2>
+<center>
+<div style = "width:350px">
+<i>Draw as many meta-examples as you want, without boxes, floating freely on both sides of the dividing line.</i>
+</div>
+</center>
+</td>
+</tr>
+</table>
+</center>
+<br>
+<br>
+It seems like the <a href = "https://oebp.org/search.php?q=subworld:boxes_bpimage">format with meta-boxes</a> is most effective for meta Bongard Problems in which the solution concerns properties of images of Bongard Problems, for example <a href="/BP802">BP802</a>.
+<br>
+Meanwhile, the <a href = "https://oebp.org/search.php?q=subworld:bpimage_shapes">format with freely floating shapes</a> on either side of the dividing line is usually used for meta Bongard Problems in which the solution concerns properties of individual examples in relation to Bongard Problem solutions, for example <a href="/BP871">BP871</a>. However, these are loose conventions and either can be used for either.
+<br>
+You can also upload as examples the images of Bongard Problems that are generated by existing BP pages. And feel free to make your own style of meta Bongard Problem if it seems more appropriate in the context you are exploring.
+<br>
+<br>
+Also note that it has been our loose convention in images of Bongard Problems to make the top examples the most obviously sorted by the solution, and to put examples that take more consideration to understand at the bottom (if any exist).
+<br>
+<br>
+Here are some templates for "Bongard's Dozen" meta Problems (each panel is a Bongard Problem plus an extra unsorted example).
+
+<center>
+<br>
+<table>
+<tr>
+<td width = 350>
+<center>
+<a href="/templates/dozentemplate.png">
+<img border="0" height="200" src="/templates/dozentemplate.png" alt="Template">
+</a>
+</center>
+</td>
+<td width = 350>
+<center>
+<a href="/templates/dozentemplate1.png">
+<img border="0" height="200" src="/templates/dozentemplate1.png" alt="Template">
+</a>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<i>Draw meta-examples in meta-boxes.</i>
+</center>
+</td>
+<td>
+<center>
+<i>Draw meta-examples floating on both sides of the vertical line and one below the horizontal line, in the middle.</i>
+</center>
+</td>
+</tr>
+</table>
+<br>
+<br>
+</center>
+
+<br>
+<br>
+Here are some more templates for Bongard Problems within Bongard Problems within Bongard Problems...
+
+<center>
+<br>
+<table>
+<tr>
+<td width = 350>
+<center>
+<a href="/templates/metametatemplate.png">
+<img border="0" height="200" src="/templates/metametatemplate.png" alt="Template">
+</a>
+</center>
+</td>
+<td width = 350>
+<center>
+<a href="/templates/metametatemplate2.png">
+<img border="0" height="200" src="/templates/metametatemplate2.png" alt="Template">
+</a>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<i>Draw meta-meta-examples in meta-meta-boxes.</i>
+</center>
+</td>
+<td>
+<center>
+<i>Draw meta-meta-examples in meta-meta-boxes.</i>
+</center>
+</td>
+</tr>
+<tr style = "height:3em">
+</tr>
+<tr>
+<td width = 350>
+<center>
+<a href="/templates/metametametatemplate.png">
+<img border="0" height="200" src="/templates/metametametatemplate.png" alt="Template">
+</a>
+</center>
+</td>
+<td width = 350>
+<center>
+<a href="/templates/metametametametatemplate.png">
+<img border="0" height="200" src="/templates/metametametametatemplate.png" alt="Template">
+</a>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<i>Draw meta-meta-meta-examples in meta-meta-meta-boxes.</i>
+</center>
+</td>
+<td>
+<center>
+<i>Draw meta-meta-meta-meta-examples in meta-meta-meta-meta-boxes.<br>Note: this template is absurd; do not use it.</i>
+</center>
+</td>
+</tr>
+</table>
+</center>
+
+
+</div>
+</center>
+
+
+
+<p>
+
+<center>
+
+<a href="/welcome.php">Welcome</a> |
+<a href="/solve.php">Solve</a> |
+<a href="/search.php?q=all&meta=no&wordless=wordless">Browse</a> |
+<a href="/index.php">Lookup</a> |
+<a href="/search.php?q=all:new&meta=no&wordless=wordless">Recent</a> |
+<a href="/links.php">Links</a> |
+<a href="/register.php">Register</a> | 
+<a href="/contact.php">Contact</a>
+
+<br>
+
+<a href="/new.php">Contribute</a> |
+<a href="/keywords.php">Keywords</a> |
+<a href="/concepts.php">Concepts</a> |
+<a href="/world.php">Worlds</a> |
+<a href="/ambiguity.php">Ambiguities</a> |
+<a href="/transformations.php">Transformations</a> |
+<a href="/invalid.php">Invalid Problems</a> |
+<a href="/style.php">Style Guide</a> |
+<a href="/goals.php">Goals</a> |
+<a href="/glossary.php">Glossary</a>
+</center>
+
+</p></body></html>
