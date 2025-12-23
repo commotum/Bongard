@@ -56,14 +56,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--delay-min",
         type=float,
-        default=5.0,
-        help="Minimum delay between requests in seconds (default: 5).",
+        default=2.0,
+        help="Minimum delay between requests in seconds (default: 2).",
     )
     parser.add_argument(
         "--delay-max",
         type=float,
-        default=10.0,
-        help="Maximum delay between requests in seconds (default: 10).",
+        default=6.0,
+        help="Maximum delay between requests in seconds (default: 6).",
     )
     parser.add_argument(
         "--timeout",
