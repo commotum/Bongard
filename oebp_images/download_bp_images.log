@@ -4401,3 +4401,60 @@
 [2025-12-23 11:02:28] [INFO] GET https://oebp.org/examples/8508.png (attempt 1/3)
 [2025-12-23 11:02:28] [INFO] Saved https://oebp.org/examples/8508.png -> oebp_images/examples/8508.png [HTTP 200]
 [2025-12-23 11:02:28] [INFO] Sleeping 4.754s before next request
+[2025-12-23 11:02:33] [INFO] GET https://oebp.org/examples/8462.png (attempt 1/3)
+[2025-12-23 11:02:33] [INFO] Saved https://oebp.org/examples/8462.png -> oebp_images/examples/8462.png [HTTP 200]
+[2025-12-23 11:02:33] [INFO] Sleeping 2.738s before next request
+[2025-12-23 11:02:36] [INFO] GET https://oebp.org/examples/1220.png (attempt 1/3)
+[2025-12-23 11:02:36] [INFO] Saved https://oebp.org/examples/1220.png -> oebp_images/examples/1220.png [HTTP 200]
+[2025-12-23 11:02:36] [INFO] Sleeping 5.840s before next request
+[2025-12-23 11:02:42] [INFO] GET https://oebp.org/examples/1221.png (attempt 1/3)
+[2025-12-23 11:02:42] [INFO] Saved https://oebp.org/examples/1221.png -> oebp_images/examples/1221.png [HTTP 200]
+[2025-12-23 11:02:42] [INFO] Sleeping 5.195s before next request
+[2025-12-23 11:02:47] [INFO] GET https://oebp.org/examples/1222.png (attempt 1/3)
+[2025-12-23 11:02:48] [INFO] Saved https://oebp.org/examples/1222.png -> oebp_images/examples/1222.png [HTTP 200]
+[2025-12-23 11:02:48] [INFO] Sleeping 3.456s before next request
+[2025-12-23 11:02:51] [INFO] GET https://oebp.org/examples/1223.png (attempt 1/3)
+[2025-12-23 11:02:51] [INFO] Saved https://oebp.org/examples/1223.png -> oebp_images/examples/1223.png [HTTP 200]
+[2025-12-23 11:02:51] [INFO] Sleeping 5.150s before next request
+[2025-12-23 11:02:56] [INFO] GET https://oebp.org/examples/1224.png (attempt 1/3)
+[2025-12-23 11:02:56] [INFO] Saved https://oebp.org/examples/1224.png -> oebp_images/examples/1224.png [HTTP 200]
+[2025-12-23 11:02:56] [INFO] Sleeping 5.775s before next request
+[2025-12-23 11:03:02] [INFO] GET https://oebp.org/examples/1225.png (attempt 1/3)
+[2025-12-23 11:03:02] [INFO] Saved https://oebp.org/examples/1225.png -> oebp_images/examples/1225.png [HTTP 200]
+[2025-12-23 11:03:02] [INFO] Sleeping 2.020s before next request
+[2025-12-23 11:03:05] [INFO] GET https://oebp.org/examples/1226.png (attempt 1/3)
+[2025-12-23 11:03:05] [INFO] Saved https://oebp.org/examples/1226.png -> oebp_images/examples/1226.png [HTTP 200]
+[2025-12-23 11:03:05] [INFO] Sleeping 3.011s before next request
+[2025-12-23 11:03:08] [INFO] GET https://oebp.org/examples/1227.png (attempt 1/3)
+[2025-12-23 11:03:08] [INFO] Saved https://oebp.org/examples/1227.png -> oebp_images/examples/1227.png [HTTP 200]
+[2025-12-23 11:03:08] [INFO] Sleeping 2.310s before next request
+[2025-12-23 11:03:10] [INFO] GET https://oebp.org/examples/1228.png (attempt 1/3)
+[2025-12-23 11:03:10] [INFO] Saved https://oebp.org/examples/1228.png -> oebp_images/examples/1228.png [HTTP 200]
+[2025-12-23 11:03:10] [INFO] Sleeping 5.396s before next request
+[2025-12-23 11:03:15] [INFO] GET https://oebp.org/examples/1229.png (attempt 1/3)
+[2025-12-23 11:03:16] [INFO] Saved https://oebp.org/examples/1229.png -> oebp_images/examples/1229.png [HTTP 200]
+[2025-12-23 11:03:16] [INFO] Sleeping 5.685s before next request
+[2025-12-23 11:03:21] [INFO] GET https://oebp.org/examples/1230.png (attempt 1/3)
+[2025-12-23 11:03:22] [INFO] Saved https://oebp.org/examples/1230.png -> oebp_images/examples/1230.png [HTTP 200]
+[2025-12-23 11:03:22] [INFO] Sleeping 5.719s before next request
+[2025-12-23 11:03:27] [INFO] GET https://oebp.org/examples/1231.png (attempt 1/3)
+[2025-12-23 11:03:27] [INFO] Saved https://oebp.org/examples/1231.png -> oebp_images/examples/1231.png [HTTP 200]
+[2025-12-23 11:03:27] [INFO] Sleeping 5.749s before next request
+[2025-12-23 11:03:33] [INFO] GET https://oebp.org/examples/8509.png (attempt 1/3)
+[2025-12-23 11:03:33] [INFO] Saved https://oebp.org/examples/8509.png -> oebp_images/examples/8509.png [HTTP 200]
+[2025-12-23 11:03:33] [INFO] Sleeping 4.800s before next request
+[2025-12-23 11:03:38] [INFO] GET https://oebp.org/examples/8510.png (attempt 1/3)
+[2025-12-23 11:03:38] [INFO] Saved https://oebp.org/examples/8510.png -> oebp_images/examples/8510.png [HTTP 200]
+[2025-12-23 11:03:38] [INFO] Sleeping 2.881s before next request
+[2025-12-23 11:03:41] [INFO] GET https://oebp.org/examples/8511.png (attempt 1/3)
+[2025-12-23 11:03:41] [INFO] Saved https://oebp.org/examples/8511.png -> oebp_images/examples/8511.png [HTTP 200]
+[2025-12-23 11:03:41] [INFO] Sleeping 5.555s before next request
+[2025-12-23 11:03:47] [INFO] GET https://oebp.org/examples/8512.png (attempt 1/3)
+[2025-12-23 11:03:47] [INFO] Saved https://oebp.org/examples/8512.png -> oebp_images/examples/8512.png [HTTP 200]
+[2025-12-23 11:03:47] [INFO] Sleeping 3.813s before next request
+[2025-12-23 11:03:51] [INFO] GET https://oebp.org/examples/8513.png (attempt 1/3)
+[2025-12-23 11:03:51] [INFO] Saved https://oebp.org/examples/8513.png -> oebp_images/examples/8513.png [HTTP 200]
+[2025-12-23 11:03:51] [INFO] Sleeping 4.520s before next request
+[2025-12-23 11:03:55] [INFO] GET https://oebp.org/examples/8515.png (attempt 1/3)
+[2025-12-23 11:03:56] [INFO] Saved https://oebp.org/examples/8515.png -> oebp_images/examples/8515.png [HTTP 200]
+[2025-12-23 11:03:56] [INFO] Sleeping 4.482s before next request
