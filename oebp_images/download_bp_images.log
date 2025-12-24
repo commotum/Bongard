@@ -21909,3 +21909,27 @@
 [2025-12-23 17:42:56] [INFO] GET https://oebp.org/examples/7446.gif (attempt 1/3)
 [2025-12-23 17:42:56] [INFO] Saved https://oebp.org/examples/7446.gif -> oebp_images/examples/7446.gif [HTTP 200]
 [2025-12-23 17:42:56] [INFO] Sleeping 3.235s before next request
+[2025-12-23 17:42:59] [INFO] GET https://oebp.org/examples/7447.gif (attempt 1/3)
+[2025-12-23 17:42:59] [INFO] Saved https://oebp.org/examples/7447.gif -> oebp_images/examples/7447.gif [HTTP 200]
+[2025-12-23 17:42:59] [INFO] Sleeping 5.672s before next request
+[2025-12-23 17:43:05] [INFO] GET https://oebp.org/examples/7449.gif (attempt 1/3)
+[2025-12-23 17:43:05] [INFO] Saved https://oebp.org/examples/7449.gif -> oebp_images/examples/7449.gif [HTTP 200]
+[2025-12-23 17:43:05] [INFO] Sleeping 2.848s before next request
+[2025-12-23 17:43:08] [INFO] GET https://oebp.org/examples/7451.gif (attempt 1/3)
+[2025-12-23 17:43:08] [INFO] Saved https://oebp.org/examples/7451.gif -> oebp_images/examples/7451.gif [HTTP 200]
+[2025-12-23 17:43:08] [INFO] Sleeping 4.717s before next request
+[2025-12-23 17:43:13] [INFO] GET https://oebp.org/examples/7452.gif (attempt 1/3)
+[2025-12-23 17:43:13] [INFO] Saved https://oebp.org/examples/7452.gif -> oebp_images/examples/7452.gif [HTTP 200]
+[2025-12-23 17:43:13] [INFO] Sleeping 3.009s before next request
+[2025-12-23 17:43:16] [INFO] GET https://oebp.org/examples/7453.gif (attempt 1/3)
+[2025-12-23 17:43:16] [INFO] Saved https://oebp.org/examples/7453.gif -> oebp_images/examples/7453.gif [HTTP 200]
+[2025-12-23 17:43:16] [INFO] Sleeping 5.809s before next request
+[2025-12-23 17:43:22] [INFO] GET https://oebp.org/examples/7454.gif (attempt 1/3)
+[2025-12-23 17:43:22] [INFO] Saved https://oebp.org/examples/7454.gif -> oebp_images/examples/7454.gif [HTTP 200]
+[2025-12-23 17:43:22] [INFO] Sleeping 5.593s before next request
+[2025-12-23 17:43:28] [INFO] GET https://oebp.org/examples/7455.gif (attempt 1/3)
+[2025-12-23 17:43:28] [INFO] Saved https://oebp.org/examples/7455.gif -> oebp_images/examples/7455.gif [HTTP 200]
+[2025-12-23 17:43:28] [INFO] Sleeping 5.683s before next request
+[2025-12-23 17:43:34] [INFO] GET https://oebp.org/examples/7456.png (attempt 1/3)
+[2025-12-23 17:43:34] [INFO] Saved https://oebp.org/examples/7456.png -> oebp_images/examples/7456.png [HTTP 200]
+[2025-12-23 17:43:34] [INFO] Sleeping 4.901s before next request
